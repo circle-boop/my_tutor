@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="680" viewBox="0 0 1180 680">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 28px; font-weight: 700; fill: #172033; }
+      .axis { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 15px; fill: #30394d; }
+      .tick { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 13px; fill: #5d667a; }
+      .legend { font-family: Arial, sans-serif; font-size: 15px; fill: #172033; }
+      .value { font-family: Arial, sans-serif; font-size: 12px; fill: #394255; }
+      .caption { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 16px; fill: #30394d; }
+      .grid { stroke: #d8dee9; stroke-width: 1; }
+      .axis-line { stroke: #667085; stroke-width: 1.4; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="680" fill="#ffffff"/>
+  <text x="590" y="46" text-anchor="middle" class="title">QA Score Comparison</text>
+
+  <rect x="395" y="70" width="18" height="18" rx="3" fill="#647fd0"/>
+  <text x="421" y="85" class="legend">Plain LLM</text>
+  <rect x="512" y="70" width="18" height="18" rx="3" fill="#5cab7a"/>
+  <text x="538" y="85" class="legend">S RAG</text>
+  <rect x="610" y="70" width="18" height="18" rx="3" fill="#db9140"/>
+  <text x="636" y="85" class="legend">MC RAG</text>
+
+  <g transform="translate(108,112)">
+    <line x1="0" y1="420" x2="1000" y2="420" class="axis-line"/>
+    <line x1="0" y1="0" x2="0" y2="420" class="axis-line"/>
+
+    <line x1="0" y1="420" x2="1000" y2="420" class="grid"/>
+    <line x1="0" y1="336" x2="1000" y2="336" class="grid"/>
+    <line x1="0" y1="252" x2="1000" y2="252" class="grid"/>
+    <line x1="0" y1="168" x2="1000" y2="168" class="grid"/>
+    <line x1="0" y1="84" x2="1000" y2="84" class="grid"/>
+    <line x1="0" y1="0" x2="1000" y2="0" class="grid"/>
+
+    <text x="-18" y="424" text-anchor="end" class="tick">0</text>
+    <text x="-18" y="340" text-anchor="end" class="tick">1</text>
+    <text x="-18" y="256" text-anchor="end" class="tick">2</text>
+    <text x="-18" y="172" text-anchor="end" class="tick">3</text>
+    <text x="-18" y="88" text-anchor="end" class="tick">4</text>
+    <text x="-18" y="4" text-anchor="end" class="tick">5</text>
+
+    <text x="-72" y="210" transform="rotate(-90 -72 210)" text-anchor="middle" class="axis">评分（1-5分）</text>
+
+    <!-- Group 1: relevance -->
+    <rect x="38" y="129.36" width="28" height="290.64" fill="#647fd0"/>
+    <rect x="70" y="77.28" width="28" height="342.72" fill="#5cab7a"/>
+    <rect x="102" y="35.28" width="28" height="384.72" fill="#db9140"/>
+    <text x="52" y="123" text-anchor="middle" class="value">3.46</text>
+    <text x="84" y="71" text-anchor="middle" class="value">4.08</text>
+    <text x="116" y="29" text-anchor="middle" class="value">4.58</text>
+    <text x="84" y="454" text-anchor="middle" class="tick">相关性</text>
+
+    <!-- Group 2: accuracy -->
+    <rect x="204" y="189.00" width="28" height="231.00" fill="#647fd0"/>
+    <rect x="236" y="111.72" width="28" height="308.28" fill="#5cab7a"/>
+    <rect x="268" y="87.36" width="28" height="332.64" fill="#db9140"/>
+    <text x="218" y="183" text-anchor="middle" class="value">2.75</text>
+    <text x="250" y="106" text-anchor="middle" class="value">3.67</text>
+    <text x="282" y="81" text-anchor="middle" class="value">3.96</text>
+    <text x="250" y="454" text-anchor="middle" class="tick">准确性</text>
+
+    <!-- Group 3: context match -->
+    <rect x="370" y="245.28" width="28" height="174.72" fill="#647fd0"/>
+    <rect x="402" y="27.72" width="28" height="392.28" fill="#5cab7a"/>
+    <rect x="434" y="52.08" width="28" height="367.92" fill="#db9140"/>
+    <text x="384" y="239" text-anchor="middle" class="value">2.08</text>
+    <text x="416" y="22" text-anchor="middle" class="value">4.67</text>
+    <text x="448" y="46" text-anchor="middle" class="value">4.38</text>
+    <text x="416" y="454" text-anchor="middle" class="tick">上下文匹配度</text>
+
+    <!-- Group 4: completeness -->
+    <rect x="536" y="210.00" width="28" height="210.00" fill="#647fd0"/>
+    <rect x="568" y="129.36" width="28" height="290.64" fill="#5cab7a"/>
+    <rect x="600" y="87.36" width="28" height="332.64" fill="#db9140"/>
+    <text x="550" y="204" text-anchor="middle" class="value">2.50</text>
+    <text x="582" y="123" text-anchor="middle" class="value">3.46</text>
+    <text x="614" y="81" text-anchor="middle" class="value">3.96</text>
+    <text x="582" y="454" text-anchor="middle" class="tick">完整性</text>
+
+    <!-- Group 5: hallucination control -->
+    <rect x="702" y="164.64" width="28" height="255.36" fill="#647fd0"/>
+    <rect x="734" y="153.72" width="28" height="266.28" fill="#5cab7a"/>
+    <rect x="766" y="122.64" width="28" height="297.36" fill="#db9140"/>
+    <text x="716" y="159" text-anchor="middle" class="value">3.04</text>
+    <text x="748" y="148" text-anchor="middle" class="value">3.17</text>
+    <text x="780" y="117" text-anchor="middle" class="value">3.54</text>
+    <text x="748" y="454" text-anchor="middle" class="tick">幻觉控制</text>
+
+    <!-- Group 6: total score -->
+    <rect x="868" y="187.32" width="28" height="232.68" fill="#647fd0"/>
+    <rect x="900" y="99.96" width="28" height="320.04" fill="#5cab7a"/>
+    <rect x="932" y="77.28" width="28" height="342.72" fill="#db9140"/>
+    <text x="882" y="181" text-anchor="middle" class="value">2.77</text>
+    <text x="914" y="94" text-anchor="middle" class="value">3.81</text>
+    <text x="946" y="71" text-anchor="middle" class="value">4.08</text>
+    <text x="914" y="454" text-anchor="middle" class="tick">综合得分</text>
+  </g>
+
+  <text x="590" y="650" text-anchor="middle" class="caption">图4.x  不同问答方法评分结果对比</text>
+</svg>

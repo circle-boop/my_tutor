@@ -1,0 +1,140 @@
+{
+  "video_name": "12.2  三角形全等的判定(第4课时)",
+  "frame_count": 12,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "status": "completed",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000000000.jpg",
+      "reason": "first_frame",
+      "scene_type": "blackboard",
+      "visual_text": "三角形全等的判定 第4课时(共4课时)",
+      "ocr_text": "数学微课帮 bilibili 三角形全等的判定 第4课时(共4课时)",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 11.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000011133.jpg",
+      "reason": "hash_diff=22, edge_den=0.044",
+      "scene_type": "blackboard",
+      "visual_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 更多精彩课程",
+      "ocr_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 13.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000013133.jpg",
+      "reason": "hash_diff=20, edge_den=0.042",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 更多精彩课程",
+      "ocr_text": "数学微课帮bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 15.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000015133.jpg",
+      "reason": "hash_diff=15, edge_den=0.035",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与  同步新课基础篇——新课讲解+例题分  同步新课  篇——典例分析+能力提  本课程使用方法： 1、学习数学不能  要勤于思  2、进行学习之前，先查  3、记住：课后一定加以练习巩固  注意：教学视频中的课程都有对应的文本 关注微信公众号：【数学微课帮】，联系  微信公众号：数学微课帮 更多精彩课程",
+      "ocr_text": "数学微课帮bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与  同步新课基础篇——新课讲解+例题分  同步新课  篇——典例分析+能力提  本课程使用方法： 1、学习数学不能  要勤于思  2、进行学习之前，先查  3、记住：课后一定加以练习巩固  注意：教学视频中的课程都有对应的文本 关注微信公众号：【数学微课帮】，联系  微信公众号：数学微课帮 更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 17.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000017133.jpg",
+      "reason": "hash_diff=20, edge_den=0.038",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。",
+      "ocr_text": "数学微课帮bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公 程！",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 19.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000019133.jpg",
+      "reason": "hash_diff=15, edge_den=0.040",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 数学微课帮——更多精彩课程！",
+      "ocr_text": "数学微课帮bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 数学微课帮——更多精彩课程！",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 149.67,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000149666.jpg",
+      "reason": "hash_diff=15, edge_den=0.026",
+      "scene_type": "blackboard",
+      "visual_text": "新课讲解 判定两个直角三角形全等的方法：斜边和一条直角边对应相等的两个直角三角形全等。简写成“斜边、直角边”或“HL”。",
+      "ocr_text": "数学微课帮 bilibili 新课讲解 判定两个直角三角形全等的方法：斜边和一条直角边对应相等的两个直角三角形全等。简写成“斜边、直角边”或“HL”。 微信公众号：数学微课帮",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 636.43,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000636433.jpg",
+      "reason": "hash_diff=20, edge_den=0.025",
+      "scene_type": "blackboard",
+      "visual_text": "例2 如图，AB=CD，BF⊥AC，DE⊥AC，AE=CF。求证：BF=DE 证明：∵AE=CF ∴AE+EF=CF+FE 即 AF=CE 在Rt△AFB与Rt△CED中 { AB=CD（已知） AF=CE（已证）",
+      "ocr_text": "例2 如图，AB=CD，BF⊥AC，DE⊥AC，AE=CF. 求证：BF=DE 证明：∵AE=CF ∴AE+EF=CF+FE 即 AF=CE 在Rt△AFB与Rt△CED中 { AB=CD（已知） AF=CE（已证） 微信公众号：数学微课帮 更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 657.53,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000657533.jpg",
+      "reason": "hash_diff=19, edge_den=0.025",
+      "scene_type": "blackboard",
+      "visual_text": "例2 如图，AB=CD，BF⊥AC，DE⊥AC，AE=CF. 求证：BF=DE 证明：∵AE=CF ∴AE+EF=CF+EF 即 AF=CE 在Rt△AFB与Rt△CED中 { AB=CD(已知) AF=CE(已证) ∴Rt△AFB≌Rt△CED(HL) ∴BF=DE(全等三角形，对应边相等)",
+      "ocr_text": "例2 如图，AB=CD，BF⊥AC，DE⊥AC，AE=CF. 求证：BF=DE 证明：∵AE=CF ∴AE+EF=CF+EF 即 AF=CE 在Rt△AFB与Rt△CED中 { AB=CD(已知) AF=CE(已证) ∴Rt△AFB≌Rt△CED(HL) ∴BF=DE(全等三角形，对应边相等)",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 839.43,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000839433.jpg",
+      "reason": "hash_diff=15, edge_den=0.026",
+      "scene_type": "blackboard",
+      "visual_text": "课堂小结：直角三角形是特殊的三角形，所以不仅有判定全等的方法：SAS、ASA、AAS、SSS，还有特殊的判定方法：HL。",
+      "ocr_text": "数学微课帮bilibili课堂小结：直角三角形是特殊的三角形，所以不仅有判定全等的方法：SAS、ASA、AAS、SSS，还有特殊的判定方法：HL。微信公众号：数学微课帮更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 842.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000842133.jpg",
+      "reason": "hash_diff=15, edge_den=0.025",
+      "scene_type": "blackboard",
+      "visual_text": "课堂小结：直角三角形是特殊的三角形，判定全等的：SAS、ASA、AAS、特殊的判定方法：",
+      "ocr_text": "数学微课帮bilibili课堂小结：直角三角形是特殊的三角形，判定全等的：SAS、ASA、AAS、特殊的判定方法：微信公众号：数学微课帮更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 859.07,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\12.2  三角形全等的判定(第4课时)\\0000859066.jpg",
+      "reason": "hash_diff=15, edge_den=0.039",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》\n本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频\n同步新课基础篇——新课讲解+例题分析\n同步新课提高篇——典例分析+能力提升\n本课程使用方法：\n1、学习数学不能只听课和看课，要勤于思考和动手练习！\n2、进行学习之前，先查目录找到所要学习的教学视频课程！\n3、记住：课后一定加以练习巩固！学好数学最终要靠自己！\n注意：教学视频中的课程都有对应的文本资料，便于学习。\n关注微信公众号：【数学微课帮】，联系我们获取学习资料。\n数学微课帮——更多精彩课程！",
+      "ocr_text": "数学微课帮bilibili\n初中数学《同步新课基础篇》\n本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频\n同步新课基础篇——新课讲解+例题分析\n同步新课提高篇——典例分析+能力提升\n本课程使用方法：\n1、学习数学不能只听课和看课，要勤于思考和动手练习！\n2、进行学习之前，先查目录找到所要学习的教学视频课程！\n3、记住：课后一定加以练习巩固！学好数学最终要靠自己！\n注意：教学视频中的课程都有对应的文本资料，便于学习。\n关注微信公众号：【数学微课帮】，联系我们获取学习资料。\n数学微课帮——更多精彩课程！",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    }
+  ]
+}

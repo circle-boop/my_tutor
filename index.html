@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>引导式智能助教系统</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .markdown-body p { margin-bottom: 0.5rem; }
+        .markdown-body pre { background: #f3f4f6; padding: 0.5rem; border-radius: 0.25rem; overflow-x: auto; }
+        .markdown-body code { background: #e5e7eb; padding: 0.1rem 0.3rem; border-radius: 0.25rem; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+    </style>
+</head>
+<body class="bg-gray-100 h-screen overflow-hidden flex flex-col">
+    <div id="app" class="flex flex-col h-full w-full">
+        
+        <header class="bg-white border-b border-gray-200 h-14 flex items-center justify-between px-6 shrink-0 z-20">
+            <div class="flex items-center space-x-4">
+                <h1 class="text-lg font-bold text-gray-800">AI 智能导学平台</h1>
+                <div class="h-6 w-px bg-gray-300"></div>
+                <select v-model="currentVideo" @change="handleVideoChange" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-64 p-2 outline-none">
+                    <option v-for="video in videoList" :key="video" :value="video">
+                        {{ video }}
+                    </option>
+                </select>
+            </div>
+            <div class="text-sm text-gray-500">当前进度：正在学习</div>
+        </header>
+
+        <div class="flex flex-1 overflow-hidden">
+            <div class="flex-1 relative bg-black flex flex-col items-center justify-center">
+                <video 
+                    ref="videoPlayer" 
+                    :src="videoUrl" 
+                    controls 
+                    class="w-full max-h-full outline-none shadow-2xl"
+                    @timeupdate="checkVideoTime"
+                ></video>
+
+                <div v-if="quiz.isActive" class="absolute inset-0 bg-black/80 flex items-center justify-center z-50 backdrop-blur-sm">
+                    <div class="bg-white rounded-xl shadow-2xl p-8 max-w-2xl w-full mx-4 transform transition-all">
+                        <div class="flex items-center space-x-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">随堂测试</span>
+                            <span class="text-sm text-gray-500">知识点：{{ quiz.data.knowledge_point }}</span>
+                        </div>
+                        <h2 class="text-xl font-bold text-gray-800 mb-6">{{ quiz.data.question }}</h2>
+                        
+                        <div class="space-y-3 mb-6">
+                            <label v-for="(option, index) in quiz.data.options" :key="index" 
+                                class="flex items-center p-4 border rounded-lg cursor-pointer transition-colors"
+                                :class="quiz.selectedOption === option ? 'bg-blue-50 border-blue-500' : 'hover:bg-gray-50'">
+                                <input type="radio" :value="option" v-model="quiz.selectedOption" class="w-4 h-4 text-blue-600" :disabled="quiz.isSubmitted">
+                                <span class="ml-3 text-gray-700">{{ option }}</span>
+                            </label>
+                        </div>
+
+                        <div v-if="!quiz.isSubmitted" class="flex justify-end">
+                            <button @click="submitQuiz" :disabled="!quiz.selectedOption || quiz.isSubmitting" 
+                                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg disabled:opacity-50 transition-colors">
+                                {{ quiz.isSubmitting ? '生成反馈中...' : '提交答案' }}
+                            </button>
+                        </div>
+                        <div v-else-if="quiz.feedback" class="p-4 rounded-lg mb-4" :class="quiz.feedback.is_correct ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'">
+                            <p class="font-bold mb-1" :class="quiz.feedback.is_correct ? 'text-green-700' : 'text-red-700'">
+                                {{ quiz.feedback.is_correct ? '回答正确！' : '回答错误。' }}
+                            </p>
+                            <p class="text-gray-700">{{ quiz.feedback.feedback }}</p>
+                            <div class="mt-4 flex justify-end">
+                                <button @click="closeQuizAndResume" class="bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-6 rounded-lg transition-colors">
+                                    继续播放
+                                </button>
+                            </div>
+                        </div>
+                        <div v-else class="p-4 rounded-lg mb-4 bg-gray-50 border border-gray-200 text-gray-600">
+                            大模型正在生成个性化反馈，请稍候...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[32rem] bg-white border-l border-gray-200 flex flex-col shadow-xl z-10 shrink-0">
+                <div class="p-4 border-b border-gray-200 bg-gray-50 flex items-center justify-between shrink-0">
+                    <h3 class="font-bold text-gray-800">AI 智能助教</h3>
+                    <span class="flex h-3 w-3 relative">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                    </span>
+                </div>
+
+                <div class="flex-1 p-4 overflow-y-auto space-y-4" ref="chatContainer">
+                    <div v-for="(msg, index) in chat.messages" :key="index" class="flex flex-col" :class="msg.role === 'user' ? 'items-end' : 'items-start'">
+                        <span v-if="msg.role !== 'system'" class="text-sm text-gray-500 mb-1">{{ msg.role === 'user' ? '你' : '助教' }}</span>
+                        
+                        <div v-if="msg.role !== 'system'" class="max-w-[85%] rounded-2xl px-4 py-2 relative group" 
+                            :class="msg.role === 'user' ? 'bg-blue-600 text-white rounded-br-none' : 'bg-gray-100 text-gray-800 rounded-bl-none markdown-body'">
+                            <div v-html="msg.role === 'user' ? msg.content : renderMarkdown(msg.content)"></div>
+                            <div v-if="msg.thinkTime" class="text-[10px] mt-2 pt-1 border-t border-gray-200/50 text-right text-gray-400">
+                                思考耗时: {{ msg.thinkTime }}s
+                            </div>
+                        </div>
+                        
+                        <div v-else class="text-sm text-center text-gray-500 w-full my-2">
+                            {{ msg.content }}
+                        </div>
+                    </div>
+                    <div v-if="chat.isLoading" class="flex items-start">
+                        <div class="bg-gray-100 rounded-2xl rounded-bl-none px-4 py-3 flex space-x-2">
+                            <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style="animation-delay: 0.1s"></div>
+                            <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 border-t border-gray-200 bg-white shrink-0">
+                    <form @submit.prevent="sendChatMessage" class="flex space-x-2">
+                        <input type="text" v-model="chat.input" placeholder="有疑问？点击这里问我..." 
+                            @focus="pauseVideo"
+                            class="flex-1 px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                            :disabled="chat.isLoading">
+                        <button type="submit" :disabled="!chat.input.trim() || chat.isLoading"
+                            class="bg-blue-600 text-white rounded-full p-2 w-10 h-10 flex items-center justify-center hover:bg-blue-700 disabled:opacity-50 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform rotate-90" viewBox="0 0 20 20" fill="currentColor">
+                              <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp } = Vue;
+        const API_BASE = "http://127.0.0.1:8000/api";
+
+        createApp({
+            data() {
+                return {
+                    // 维护一个可用视频列表
+                    videoList: [],
+                    currentVideo: "",
+                    timestamps: [],
+                    triggeredTimestamps: new Set(),
+                    quiz: {
+                        isActive: false,
+                        data: null,
+                        selectedOption: null,
+                        isSubmitting: false,
+                        isSubmitted: false,
+                        feedback: null
+                    },
+                    chat: {
+                        messages: [{ role: 'system', content: '你好！我是你的智能助教。在观看视频时有任何概念不懂，都可以随时在这里问我哦。' }],
+                        input: '',
+                        isLoading: false
+                    },
+                }
+            },
+            computed: {
+                videoUrl() {
+                    if (!this.currentVideo) return '';
+                    return `http://127.0.0.1:8000/videos/${this.currentVideo}.mp4`;
+                }
+            },
+            async mounted() {
+                // 先拉取视频列表
+                await this.fetchVideoList();
+                // 如果有视频，再去拉取第一个视频的时间戳
+                if (this.currentVideo) {
+                    this.loadVideoMetadata();
+                }
+            },
+            methods: {
+                // 新增：向后端请求真实存在的视频列表
+                async fetchVideoList() {
+                    try {
+                        const res = await fetch(`${API_BASE}/videos`);
+                        if (!res.ok) {
+                            throw new Error(`HTTP ${res.status}`);
+                        }
+                        const data = await res.json();
+                        this.videoList = data.videos || [];
+                        if (this.videoList.length > 0) {
+                            this.currentVideo = this.videoList[0];
+                        } else {
+                            this.chat.messages.push({ role: 'system', content: '未检测到可播放视频，请检查 videos 目录是否存在 mp4 文件。' });
+                        }
+                    } catch (e) {
+                        console.error("获取视频列表失败:", e);
+                        this.chat.messages.push({ role: 'system', content: `无法连接后端 API（${API_BASE}/videos）。请确认后端已启动，且 CORS 配置允许当前页面来源（例如 127.0.0.1:5500、localhost:5500 或 file://）。` });
+                    }
+                },
+                // 专门负责拉取当前视频的元数据(时间戳)
+                async loadVideoMetadata() {
+                    try {
+                        const res = await fetch(`${API_BASE}/video/${this.currentVideo}/metadata`);
+                        const data = await res.json();
+                        this.timestamps = data.timestamps;
+                        console.log(`[${this.currentVideo}] 加载到的提问时间点:`, this.timestamps);
+                    } catch (e) {
+                        console.error("无法获取视频元数据:", e);
+                    }
+                },
+                // 处理视频切换事件
+                handleVideoChange() {
+                    // 1. 重新加载时间戳
+                    this.loadVideoMetadata();
+                    // 2. 清空触发记录，保证新视频可以正常弹题
+                    this.triggeredTimestamps.clear();
+                    // 3. 强制重载视频以防浏览器缓存异常
+                    this.$nextTick(() => {
+                        if (this.$refs.videoPlayer) {
+                            this.$refs.videoPlayer.load();
+                        }
+                    });
+                    // 4. 彻底清空聊天记录，防止多视频上下文串台
+                    this.chat.messages = [{ role: 'system', content: `— 已为您切换至视频《${this.currentVideo}》 —` }];
+                },
+                // 当用户点击聊天输入框时，暂停视频
+                pauseVideo() {
+                    if (this.$refs.videoPlayer && !this.$refs.videoPlayer.paused) {
+                        this.$refs.videoPlayer.pause();
+                    }
+                },
+                renderMarkdown(text) {
+                    const html = marked.parse(text || '');
+                    // 所有外链默认新标签打开，避免覆盖当前 index 页面
+                    return html.replace(/<a /g, '<a target="_blank" rel="noopener noreferrer" ');
+                },
+                checkVideoTime(e) {
+                    if (this.quiz.isActive) return;
+                    
+                    const currentTime = e.target.currentTime;
+                    for (let t of this.timestamps) {
+                        if (Math.abs(currentTime - t) < 0.5 && !this.triggeredTimestamps.has(t)) {
+                            this.triggerQuiz(t);
+                            break;
+                        }
+                    }
+                },
+                async triggerQuiz(time) {
+                    this.$refs.videoPlayer.pause();
+                    this.triggeredTimestamps.add(time);
+                    
+                    try {
+                        const res = await fetch(`${API_BASE}/video/${this.currentVideo}/question?time=${time}`);
+                        if (res.ok) {
+                            const data = await res.json();
+                            this.quiz.data = data;
+                            this.quiz.selectedOption = null;
+                            this.quiz.isSubmitted = false;
+                            this.quiz.feedback = null;
+                            this.quiz.isActive = true;
+                        } else {
+                            this.$refs.videoPlayer.play();
+                        }
+                    } catch (e) {
+                        console.error("拉取题目失败:", e);
+                        this.$refs.videoPlayer.play();
+                    }
+                },
+                async submitQuiz() {
+                    if (this.quiz.isSubmitting) return;
+                    this.quiz.isSubmitting = true;
+                    this.quiz.feedback = null;
+                    try {
+                        const res = await fetch(`${API_BASE}/evaluate`, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                question: this.quiz.data.question,
+                                options: this.quiz.data.options,
+                                standard_answer: this.quiz.data.standard_answer,
+                                user_answer: this.quiz.selectedOption
+                            })
+                        });
+                        const data = await res.json();
+                        this.quiz.feedback = data;
+                    } catch (e) {
+                        this.quiz.feedback = { is_correct: false, feedback: "网络错误，无法连接评估接口。" };
+                    } finally {
+                        this.quiz.isSubmitting = false;
+                        this.quiz.isSubmitted = true;
+                    }
+                },
+                closeQuizAndResume() {
+                    this.quiz.isActive = false;
+                    this.$refs.videoPlayer.play();
+                },
+                async sendChatMessage() {
+                    const text = this.chat.input.trim();
+                    if (!text) return;
+
+                    // 获取当前视频播放时间
+                    let currentTime = null;
+                    if (this.$refs.videoPlayer) {
+                        currentTime = this.$refs.videoPlayer.currentTime;
+                        // 发送时可选自动暂停视频
+                        if (!this.$refs.videoPlayer.paused) {
+                            this.$refs.videoPlayer.pause();
+                        }
+                    }
+
+                    this.chat.messages.push({ role: 'user', content: text });
+                    this.chat.input = '';
+                    this.chat.isLoading = true;
+                    this.scrollToBottom();
+
+                    // 提取历史记录（排除 system 提示语和刚发送的这条提问）
+                    const historyToBackend = this.chat.messages
+                        .slice(0, -1)
+                        .filter(m => m.role !== 'system')
+                        .map(m => ({ role: m.role, content: m.content }));
+
+                    const startTime = Date.now();
+
+                    try {
+                        const controller = new AbortController();
+                            const isSummaryReq = /(总结|概括|梳理|归纳|知识点|重点|大纲|复盘)/.test(text);
+                            const timeoutMs = isSummaryReq ? 30000 : 20000;
+                            const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+                            const res = await fetch(`${API_BASE}/chat`, {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    query: text,
+                                    video_name: this.currentVideo,
+                                    history: historyToBackend,
+                                    current_time: currentTime // <--- 新增：携带当前视频播放时间！
+                                }),
+                                signal: controller.signal
+                            });
+                            clearTimeout(timeoutId);
+
+                            if (!res.ok) {
+                                const errText = await res.text();
+                                throw new Error(`后端错误(${res.status})：${errText || '无详情'}`);
+                            }
+
+                            const data = await res.json();
+                            const endTime = Date.now();
+                            const thinkTime = ((endTime - startTime) / 1000).toFixed(1);
+
+                            this.chat.messages.push({ 
+                                role: 'assistant', 
+                                content: data.answer || '（模型未返回内容）',
+                                thinkTime: thinkTime 
+                            });
+                    } catch (e) {
+                        const isSummaryReq = /(总结|概括|梳理|归纳|知识点|重点|大纲|复盘)/.test(text);
+                        const timeoutSec = isSummaryReq ? 30 : 20;
+                        const msg = e?.name === 'AbortError'
+                            ? `请求超时（${timeoutSec}s），请重试或缩短问题范围。`
+                            : (e.message || '未知异常');
+                        this.chat.messages.push({ role: 'assistant', content: `抱歉，系统响应异常，请重试。\n${msg}` });
+                    } finally {
+                        this.chat.isLoading = false;
+                        this.scrollToBottom();
+                    }
+                },
+                scrollToBottom() {
+                    this.$nextTick(() => {
+                        const container = this.$refs.chatContainer;
+                        if (container) container.scrollTop = container.scrollHeight;
+                    });
+                }
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+{
+  "video_name": "神经网络原理",
+  "rounds": [
+    {
+      "round": 1,
+      "plan": {
+        "topic": "神经网络原理",
+        "queries": [
+          {
+            "query": "神经网络原理 神经元工作原理及感知机模型",
+            "goal": "定义"
+          },
+          {
+            "query": "神经网络原理 神经网络通过多层非线性变换实现复杂逻辑学习",
+            "goal": "机制"
+          },
+          {
+            "query": "神经网络原理 前向传播与反向传播",
+            "goal": "过程"
+          },
+          {
+            "query": "神经网络原理 梯度下降优化算法及其学习率选择",
+            "goal": "应用"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 1,
+        "avg_quality": 0.55,
+        "high_quality_items": 0,
+        "unique_domains": 1
+      },
+      "stats": {
+        "total_items": 1,
+        "avg_quality": 0.55,
+        "high_quality_items": 0,
+        "unique_domains": 1
+      },
+      "new_items": 1,
+      "top_items": [
+        {
+          "url": "https://developer.aliyun.com/article/1650427",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 前向传播与反向传播",
+          "goal": "过程",
+          "snippet": "![](https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng)\n\n### 探索云世界\n\n#### 热门\n\n#### [云计算](https://developer.aliyun.com/ecs/)\n\n#### [大数据](https://developer.aliyu"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "plan": {
+        "topic": "神经网络原理",
+        "queries": [
+          {
+            "query": "神经网络原理 核心定义 对比",
+            "goal": "补充定义与边界"
+          },
+          {
+            "query": "神经网络原理 常见误区 纠偏",
+            "goal": "补充误区辨析"
+          },
+          {
+            "query": "神经网络原理 真实应用 场景",
+            "goal": "补充工程案例"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 5,
+        "avg_quality": 0.64,
+        "high_quality_items": 2,
+        "unique_domains": 5
+      },
+      "stats": {
+        "total_items": 6,
+        "avg_quality": 0.625,
+        "high_quality_items": 2,
+        "unique_domains": 6
+      },
+      "new_items": 5,
+      "top_items": [
+        {
+          "url": "https://zgcr.gitlab.io/2019/03/09/shen-du-xue-xi-ji-ben-zhi-shi-jie-shao-cnn-rnn-lstm-gru-shen-jing-wang-luo-yuan-li/",
+          "quality_score": 0.775,
+          "source": "tavily_api",
+          "query": "神经网络原理 核心定义 对比",
+          "goal": "补充定义与边界",
+          "snippet": "[深度学习原理推导](/tags/深度学习原理推导/)\n\n[深度学习原理推导](/categories/深度学习原理推导/)\n\n发布日期:   2019-03-09\n\n文章字数:   9k\n\n阅读时长:   33 分\n\n阅读次数:\n\n---\n\n@[TOC]\n\n# 机器学习定义\n\n对于某类任务T和性能度量P，一个计算机程序被认为可以从经验E中学习是指，通过经验E改进后，它在任务T上由性能度量P衡量的"
+        },
+        {
+          "url": "https://www.fortinet.com/cn/resources/cyberglossary/neural-network",
+          "quality_score": 0.775,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "![Fortinet 主页](/content/dam/fortinet/images/general/fortinet-logo.svg)\n![Fortinet 主页](/content/dam/fortinet/images/general/fortinet-logo.svg)\n![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB"
+        },
+        {
+          "url": "https://developer.aliyun.com/article/1650427",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 前向传播与反向传播",
+          "goal": "过程",
+          "snippet": "![](https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng)\n\n### 探索云世界\n\n#### 热门\n\n#### [云计算](https://developer.aliyun.com/ecs/)\n\n#### [大数据](https://developer.aliyu"
+        },
+        {
+          "url": "http://chuquan.me/2024/07/21/neural-network-introduce/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 核心定义 对比",
+          "goal": "补充定义与边界",
+          "snippet": "[![Fork me on GitHub](https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149)](https://github.com/baochuquan)\n\n\nSeek the wonder of life.\n\n# 初识人工神经网络（1）——基本原理\n\n发"
+        },
+        {
+          "url": "https://bbs.huaweicloud.com/blogs/468313",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "* [云社区](https://bbs.huaweicloud.com)\n* [博客](https://bbs.huaweicloud.com/blogs)\n* 神经网络：从原理到应用的通俗讲解\n\n# 神经网络：从原理到应用的通俗讲解\n\n举报\n\n[![](https://fileserver.developer.huaweicloud.com/FileServer/getFile/communit"
+        },
+        {
+          "url": "https://easyai.tech/ai-definition/cnn/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "## tableOfContents.onThisPage\n\n# 一文看懂卷积神经网络-CNN（基本原理+独特价值+实际应用）- 产品经理的人工智能学习库\n\n## 卷积神经网络 – CNN\n\n文章目录\n![](/images/ai-definition/7f184-2019-06-24-cnn.png)\n卷积神经网络 – CNN 最擅长的就是图片的处理。它受到人类视觉神经系统的启发。\nCNN 有2"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "plan": {
+        "topic": "神经网络原理",
+        "queries": [
+          {
+            "query": "神经网络原理 核心定义 对比",
+            "goal": "补充定义与边界"
+          },
+          {
+            "query": "神经网络原理 常见误区 纠偏",
+            "goal": "补充误区辨析"
+          },
+          {
+            "query": "神经网络原理 真实应用 场景",
+            "goal": "补充工程案例"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 0,
+        "avg_quality": 0.0,
+        "high_quality_items": 0,
+        "unique_domains": 0
+      },
+      "stats": {
+        "total_items": 6,
+        "avg_quality": 0.625,
+        "high_quality_items": 2,
+        "unique_domains": 6
+      },
+      "new_items": 0,
+      "top_items": [
+        {
+          "url": "https://zgcr.gitlab.io/2019/03/09/shen-du-xue-xi-ji-ben-zhi-shi-jie-shao-cnn-rnn-lstm-gru-shen-jing-wang-luo-yuan-li/",
+          "quality_score": 0.775,
+          "source": "tavily_api",
+          "query": "神经网络原理 核心定义 对比",
+          "goal": "补充定义与边界",
+          "snippet": "[深度学习原理推导](/tags/深度学习原理推导/)\n\n[深度学习原理推导](/categories/深度学习原理推导/)\n\n发布日期:   2019-03-09\n\n文章字数:   9k\n\n阅读时长:   33 分\n\n阅读次数:\n\n---\n\n@[TOC]\n\n# 机器学习定义\n\n对于某类任务T和性能度量P，一个计算机程序被认为可以从经验E中学习是指，通过经验E改进后，它在任务T上由性能度量P衡量的"
+        },
+        {
+          "url": "https://www.fortinet.com/cn/resources/cyberglossary/neural-network",
+          "quality_score": 0.775,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "![Fortinet 主页](/content/dam/fortinet/images/general/fortinet-logo.svg)\n![Fortinet 主页](/content/dam/fortinet/images/general/fortinet-logo.svg)\n![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB"
+        },
+        {
+          "url": "https://developer.aliyun.com/article/1650427",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 前向传播与反向传播",
+          "goal": "过程",
+          "snippet": "![](https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng)\n\n### 探索云世界\n\n#### 热门\n\n#### [云计算](https://developer.aliyun.com/ecs/)\n\n#### [大数据](https://developer.aliyu"
+        },
+        {
+          "url": "http://chuquan.me/2024/07/21/neural-network-introduce/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 核心定义 对比",
+          "goal": "补充定义与边界",
+          "snippet": "[![Fork me on GitHub](https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149)](https://github.com/baochuquan)\n\n\nSeek the wonder of life.\n\n# 初识人工神经网络（1）——基本原理\n\n发"
+        },
+        {
+          "url": "https://bbs.huaweicloud.com/blogs/468313",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "* [云社区](https://bbs.huaweicloud.com)\n* [博客](https://bbs.huaweicloud.com/blogs)\n* 神经网络：从原理到应用的通俗讲解\n\n# 神经网络：从原理到应用的通俗讲解\n\n举报\n\n[![](https://fileserver.developer.huaweicloud.com/FileServer/getFile/communit"
+        },
+        {
+          "url": "https://easyai.tech/ai-definition/cnn/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "## tableOfContents.onThisPage\n\n# 一文看懂卷积神经网络-CNN（基本原理+独特价值+实际应用）- 产品经理的人工智能学习库\n\n## 卷积神经网络 – CNN\n\n文章目录\n![](/images/ai-definition/7f184-2019-06-24-cnn.png)\n卷积神经网络 – CNN 最擅长的就是图片的处理。它受到人类视觉神经系统的启发。\nCNN 有2"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "plan": {
+        "topic": "神经网络原理",
+        "queries": [
+          {
+            "query": "神经网络原理定义",
+            "goal": "获取神经网络的基本定义"
+          },
+          {
+            "query": "神经网络工作机制详解",
+            "goal": "了解神经网络的工作机制"
+          },
+          {
+            "query": "神经网络应用案例",
+            "goal": "收集神经网络的实际应用案例"
+          },
+          {
+            "query": "神经网络常见误区",
+            "goal": "识别和理解神经网络的常见误区"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 1,
+        "avg_quality": 0.775,
+        "high_quality_items": 1,
+        "unique_domains": 1
+      },
+      "stats": {
+        "total_items": 7,
+        "avg_quality": 0.646,
+        "high_quality_items": 3,
+        "unique_domains": 7
+      },
+      "new_items": 1,
+      "top_items": [
+        {
+          "url": "https://zgcr.gitlab.io/2019/03/09/shen-du-xue-xi-ji-ben-zhi-shi-jie-shao-cnn-rnn-lstm-gru-shen-jing-wang-luo-yuan-li/",
+          "quality_score": 0.775,
+          "source": "tavily_api",
+          "query": "神经网络原理 核心定义 对比",
+          "goal": "补充定义与边界",
+          "snippet": "[深度学习原理推导](/tags/深度学习原理推导/)\n\n[深度学习原理推导](/categories/深度学习原理推导/)\n\n发布日期:   2019-03-09\n\n文章字数:   9k\n\n阅读时长:   33 分\n\n阅读次数:\n\n---\n\n@[TOC]\n\n# 机器学习定义\n\n对于某类任务T和性能度量P，一个计算机程序被认为可以从经验E中学习是指，通过经验E改进后，它在任务T上由性能度量P衡量的"
+        },
+        {
+          "url": "https://www.fortinet.com/cn/resources/cyberglossary/neural-network",
+          "quality_score": 0.775,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "![Fortinet 主页](/content/dam/fortinet/images/general/fortinet-logo.svg)\n![Fortinet 主页](/content/dam/fortinet/images/general/fortinet-logo.svg)\n![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB"
+        },
+        {
+          "url": "https://www.cvmart.net/community/detail/128",
+          "quality_score": 0.775,
+          "source": "tavily_api",
+          "query": "神经网络应用案例",
+          "goal": "收集神经网络的实际应用案例",
+          "snippet": "解析深度学习：3 个经典的卷积神经网络案例分析\n\n2018-12-14编辑：极市平台作者：ExtremeMart浏览：7307\n\n> 原文来源于魏秀参博士的《解析深度学习：卷积神经网络原理与视觉实践》，本书由周志华老师作序推荐：“市面上深度学习书籍已不少，但专门针对卷积神经网络展开，侧重实践有不失论释者尚不多见。本书基本覆盖了卷积神经网络实践所有涉及环节，作者交代的若干新的技巧亦可一观，读者在实践"
+        },
+        {
+          "url": "https://developer.aliyun.com/article/1650427",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 前向传播与反向传播",
+          "goal": "过程",
+          "snippet": "![](https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng)\n\n### 探索云世界\n\n#### 热门\n\n#### [云计算](https://developer.aliyun.com/ecs/)\n\n#### [大数据](https://developer.aliyu"
+        },
+        {
+          "url": "http://chuquan.me/2024/07/21/neural-network-introduce/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 核心定义 对比",
+          "goal": "补充定义与边界",
+          "snippet": "[![Fork me on GitHub](https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149)](https://github.com/baochuquan)\n\n\nSeek the wonder of life.\n\n# 初识人工神经网络（1）——基本原理\n\n发"
+        },
+        {
+          "url": "https://bbs.huaweicloud.com/blogs/468313",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "* [云社区](https://bbs.huaweicloud.com)\n* [博客](https://bbs.huaweicloud.com/blogs)\n* 神经网络：从原理到应用的通俗讲解\n\n# 神经网络：从原理到应用的通俗讲解\n\n举报\n\n[![](https://fileserver.developer.huaweicloud.com/FileServer/getFile/communit"
+        },
+        {
+          "url": "https://easyai.tech/ai-definition/cnn/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "神经网络原理 真实应用 场景",
+          "goal": "补充工程案例",
+          "snippet": "## tableOfContents.onThisPage\n\n# 一文看懂卷积神经网络-CNN（基本原理+独特价值+实际应用）- 产品经理的人工智能学习库\n\n## 卷积神经网络 – CNN\n\n文章目录\n![](/images/ai-definition/7f184-2019-06-24-cnn.png)\n卷积神经网络 – CNN 最擅长的就是图片的处理。它受到人类视觉神经系统的启发。\nCNN 有2"
+        }
+      ]
+    }
+  ],
+  "final_stats": {
+    "total_items": 7,
+    "avg_quality": 0.646,
+    "high_quality_items": 3,
+    "unique_domains": 7
+  },
+  "stop_reason": "资料质量与数量已达标",
+  "generation_blocked": false,
+  "generation_reason": "",
+  "generation_threshold": {
+    "min_high_quality_items": 3,
+    "min_unique_domains": 2
+  },
+  "saved_doc": "D:\\VscodeProject\\my_tutor\\supplementary_docs\\神经网络原理.md"
+}

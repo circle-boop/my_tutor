@@ -1,0 +1,419 @@
+{
+  "video_name": "ANN基本原理",
+  "rounds": [
+    {
+      "round": 1,
+      "plan": {
+        "topic": "ANN基本原理",
+        "queries": [
+          {
+            "query": "ANN基本原理 人工神经网络",
+            "goal": "定义"
+          },
+          {
+            "query": "ANN基本原理 逆向传播算法",
+            "goal": "机制"
+          },
+          {
+            "query": "ANN基本原理 误差平方和调整",
+            "goal": "案例"
+          },
+          {
+            "query": "ANN基本原理 学习率设置",
+            "goal": "误区"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 8,
+        "avg_quality": 0.577,
+        "high_quality_items": 1,
+        "unique_domains": 7
+      },
+      "stats": {
+        "total_items": 8,
+        "avg_quality": 0.577,
+        "high_quality_items": 1,
+        "unique_domains": 7
+      },
+      "new_items": 8,
+      "top_items": [
+        {
+          "url": "https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460",
+          "quality_score": 0.77,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[网页](https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=人工神经网络)[新闻](http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=人工神经网络)[贴吧](https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=人"
+        },
+        {
+          "url": "http://chuquan.me/2024/07/21/neural-network-introduce/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![Fork me on GitHub](https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149)](https://github.com/baochuquan)\n\n\nSeek the wonder of life.\n\n# 初识人工神经网络（1）——基本原理\n\n发"
+        },
+        {
+          "url": "https://aibook.ren/archives/artificial-neural-network",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "![avatar](/upload/logo150.png)\n\n[首 页](/)\n\n[分 类](/categories)\n\n[关 于](/about)\n\n# 人工神经网络（Artificial Neural Network | ANN）\n\n访问量 *1089*   Posted *2023-03-8*   Updated *2024-03- 20*    *15~20 min* read\n\n> 人"
+        },
+        {
+          "url": "https://developer.volcengine.com/articles/7382258408004517914",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/volcengine_logo.svg)](https://www.volcengine.com)\n\n[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/community"
+        },
+        {
+          "url": "https://medium.com/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E5%80%92%E5%BA%95%E6%9C%89%E5%A4%9A%E6%99%BA%E6%85%A7/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF-artificial-neural-network-38bca19f189b",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "# 人工神經網路 Artificial Neural Network - 人工智慧，倒底有多智慧？ - Medium\n\n[Sitemap](https://medium.com/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=ut"
+        },
+        {
+          "url": "https://cloud.tencent.com/developer/article/1546084?policyId=1003",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "## 神经网络基础：反向传播算法\n\n![](https://qccommunity.qcloudimg.com/image/new.png)\n\n# 神经网络基础：反向传播算法\n\n![作者头像](https://ask.qcloudimg.com/custom-avatar/6166175/lbaxgaqgyz.jpg)\n![](https://ask.qcloudimg.com/http-save"
+        },
+        {
+          "url": "https://developer.nvidia.cn/blog/a-data-scientists-guide-to-gradient-descent-and-backpropagation-algorithms/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "![Home](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content/themes/nvidia/dist/images/nvidia-logo_28b633c7.svg)\n\n# 梯度下降和反向传播算法数据科学家指南\n\n![](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content"
+        },
+        {
+          "url": "https://medium.com/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E5%80%92%E5%BA%95%E6%9C%89%E5%A4%9A%E6%99%BA%E6%85%A7/%E5%8F%8D%E5%90%91%E5%82%B3%E6%92%AD%E7%AE%97%E6%B3%95-backpropagation-algorithm-71a1845100cf",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "# 反向傳播算法（ Backpropagation Algorithm ） | by Ken Huang | 人工智慧，倒底有多智慧？ | Medium\n\n[Sitemap](https://medium.com/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium."
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "plan": {
+        "topic": "ANN基本原理",
+        "queries": [
+          {
+            "query": "ANN基本原理定义",
+            "goal": "获取ANN的基本定义"
+          },
+          {
+            "query": "ANN基本原理机制",
+            "goal": "了解ANN的工作机制和原理"
+          },
+          {
+            "query": "ANN基本原理案例",
+            "goal": "寻找ANN在实际应用中的案例"
+          },
+          {
+            "query": "ANN基本原理误区",
+            "goal": "识别和理解ANN学习中的常见误区"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 9,
+        "avg_quality": 0.547,
+        "high_quality_items": 0,
+        "unique_domains": 8
+      },
+      "stats": {
+        "total_items": 17,
+        "avg_quality": 0.561,
+        "high_quality_items": 1,
+        "unique_domains": 14
+      },
+      "new_items": 9,
+      "top_items": [
+        {
+          "url": "https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460",
+          "quality_score": 0.77,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[网页](https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=人工神经网络)[新闻](http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=人工神经网络)[贴吧](https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=人"
+        },
+        {
+          "url": "http://chuquan.me/2024/07/21/neural-network-introduce/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![Fork me on GitHub](https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149)](https://github.com/baochuquan)\n\n\nSeek the wonder of life.\n\n# 初识人工神经网络（1）——基本原理\n\n发"
+        },
+        {
+          "url": "https://aibook.ren/archives/artificial-neural-network",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "![avatar](/upload/logo150.png)\n\n[首 页](/)\n\n[分 类](/categories)\n\n[关 于](/about)\n\n# 人工神经网络（Artificial Neural Network | ANN）\n\n访问量 *1089*   Posted *2023-03-8*   Updated *2024-03- 20*    *15~20 min* read\n\n> 人"
+        },
+        {
+          "url": "https://developer.volcengine.com/articles/7382258408004517914",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/volcengine_logo.svg)](https://www.volcengine.com)\n\n[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/community"
+        },
+        {
+          "url": "https://medium.com/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E5%80%92%E5%BA%95%E6%9C%89%E5%A4%9A%E6%99%BA%E6%85%A7/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF-artificial-neural-network-38bca19f189b",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "# 人工神經網路 Artificial Neural Network - 人工智慧，倒底有多智慧？ - Medium\n\n[Sitemap](https://medium.com/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=ut"
+        },
+        {
+          "url": "https://cloud.tencent.com/developer/article/1546084?policyId=1003",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "## 神经网络基础：反向传播算法\n\n![](https://qccommunity.qcloudimg.com/image/new.png)\n\n# 神经网络基础：反向传播算法\n\n![作者头像](https://ask.qcloudimg.com/custom-avatar/6166175/lbaxgaqgyz.jpg)\n![](https://ask.qcloudimg.com/http-save"
+        },
+        {
+          "url": "https://developer.nvidia.cn/blog/a-data-scientists-guide-to-gradient-descent-and-backpropagation-algorithms/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "![Home](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content/themes/nvidia/dist/images/nvidia-logo_28b633c7.svg)\n\n# 梯度下降和反向传播算法数据科学家指南\n\n![](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content"
+        },
+        {
+          "url": "https://medium.com/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E5%80%92%E5%BA%95%E6%9C%89%E5%A4%9A%E6%99%BA%E6%85%A7/%E5%8F%8D%E5%90%91%E5%82%B3%E6%92%AD%E7%AE%97%E6%B3%95-backpropagation-algorithm-71a1845100cf",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "# 反向傳播算法（ Backpropagation Algorithm ） | by Ken Huang | 人工智慧，倒底有多智慧？ | Medium\n\n[Sitemap](https://medium.com/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium."
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "plan": {
+        "topic": "ANN基本原理",
+        "queries": [
+          {
+            "query": "ANN基本原理 核心定义 对比",
+            "goal": "补充定义与边界"
+          },
+          {
+            "query": "ANN基本原理 常见误区 纠偏",
+            "goal": "补充误区辨析"
+          },
+          {
+            "query": "ANN基本原理 真实应用 场景",
+            "goal": "补充工程案例"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 1,
+        "avg_quality": 0.55,
+        "high_quality_items": 0,
+        "unique_domains": 1
+      },
+      "stats": {
+        "total_items": 18,
+        "avg_quality": 0.561,
+        "high_quality_items": 1,
+        "unique_domains": 14
+      },
+      "new_items": 1,
+      "top_items": [
+        {
+          "url": "https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460",
+          "quality_score": 0.77,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[网页](https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=人工神经网络)[新闻](http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=人工神经网络)[贴吧](https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=人"
+        },
+        {
+          "url": "http://chuquan.me/2024/07/21/neural-network-introduce/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![Fork me on GitHub](https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149)](https://github.com/baochuquan)\n\n\nSeek the wonder of life.\n\n# 初识人工神经网络（1）——基本原理\n\n发"
+        },
+        {
+          "url": "https://aibook.ren/archives/artificial-neural-network",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "![avatar](/upload/logo150.png)\n\n[首 页](/)\n\n[分 类](/categories)\n\n[关 于](/about)\n\n# 人工神经网络（Artificial Neural Network | ANN）\n\n访问量 *1089*   Posted *2023-03-8*   Updated *2024-03- 20*    *15~20 min* read\n\n> 人"
+        },
+        {
+          "url": "https://developer.volcengine.com/articles/7382258408004517914",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/volcengine_logo.svg)](https://www.volcengine.com)\n\n[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/community"
+        },
+        {
+          "url": "https://medium.com/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E5%80%92%E5%BA%95%E6%9C%89%E5%A4%9A%E6%99%BA%E6%85%A7/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF-artificial-neural-network-38bca19f189b",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "# 人工神經網路 Artificial Neural Network - 人工智慧，倒底有多智慧？ - Medium\n\n[Sitemap](https://medium.com/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=ut"
+        },
+        {
+          "url": "https://cloud.tencent.com/developer/article/1546084?policyId=1003",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "## 神经网络基础：反向传播算法\n\n![](https://qccommunity.qcloudimg.com/image/new.png)\n\n# 神经网络基础：反向传播算法\n\n![作者头像](https://ask.qcloudimg.com/custom-avatar/6166175/lbaxgaqgyz.jpg)\n![](https://ask.qcloudimg.com/http-save"
+        },
+        {
+          "url": "https://developer.nvidia.cn/blog/a-data-scientists-guide-to-gradient-descent-and-backpropagation-algorithms/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "![Home](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content/themes/nvidia/dist/images/nvidia-logo_28b633c7.svg)\n\n# 梯度下降和反向传播算法数据科学家指南\n\n![](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content"
+        },
+        {
+          "url": "https://medium.com/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E5%80%92%E5%BA%95%E6%9C%89%E5%A4%9A%E6%99%BA%E6%85%A7/%E5%8F%8D%E5%90%91%E5%82%B3%E6%92%AD%E7%AE%97%E6%B3%95-backpropagation-algorithm-71a1845100cf",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "# 反向傳播算法（ Backpropagation Algorithm ） | by Ken Huang | 人工智慧，倒底有多智慧？ | Medium\n\n[Sitemap](https://medium.com/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium."
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "plan": {
+        "topic": "ANN基本原理",
+        "queries": [
+          {
+            "query": "ANN基本原理定义与机制详解",
+            "goal": "补充ANN基本原理的定义和工作机制机制，提供详细解释和示例。"
+          },
+          {
+            "query": "ANN基本原理常见误区与案例分析",
+            "goal": "指出ANN基本原理中的常见误区，并机制，并，并案例分析，，"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 5,
+        "avg_quality": 0.59,
+        "high_quality_items": 1,
+        "unique_domains": 5
+      },
+      "stats": {
+        "total_items": 23,
+        "avg_quality": 0.567,
+        "high_quality_items": 2,
+        "unique_domains": 18
+      },
+      "new_items": 5,
+      "top_items": [
+        {
+          "url": "https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460",
+          "quality_score": 0.77,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[网页](https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=人工神经网络)[新闻](http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=人工神经网络)[贴吧](https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=人"
+        },
+        {
+          "url": "https://www.sem.tsinghua.edu.cn/__local/F/79/46/199049FDBC4D653FA6062D4AC13_10368500_495D0.xlsx",
+          "quality_score": 0.75,
+          "source": "tavily_api",
+          "query": "ANN基本原理常见误区与案例分析",
+          "goal": "指出ANN基本原理中的常见误区，并机制，并，并案例分析，，",
+          "snippet": "PK!{!z[Content\\_Types].xml (n0E1tQUE &$my ߉yx(M؞{Lf<:YA@l&i\\_$`s-3==IYjg!@1 gpLTDEJ+h΃FRz/T zj )y\\_XnϵL(k+bre?HA|ٰt>XPS>&)qb(QfAwYae<>p'vq\\_;ѐLTOpr]sy%Je~<276/ 1y(so](z\\zJܽ >GjGݫ6Y8 ɱf;y.;wݕ/\\s5~+"
+        },
+        {
+          "url": "http://chuquan.me/2024/07/21/neural-network-introduce/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![Fork me on GitHub](https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149)](https://github.com/baochuquan)\n\n\nSeek the wonder of life.\n\n# 初识人工神经网络（1）——基本原理\n\n发"
+        },
+        {
+          "url": "https://aibook.ren/archives/artificial-neural-network",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "![avatar](/upload/logo150.png)\n\n[首 页](/)\n\n[分 类](/categories)\n\n[关 于](/about)\n\n# 人工神经网络（Artificial Neural Network | ANN）\n\n访问量 *1089*   Posted *2023-03-8*   Updated *2024-03- 20*    *15~20 min* read\n\n> 人"
+        },
+        {
+          "url": "https://developer.volcengine.com/articles/7382258408004517914",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/volcengine_logo.svg)](https://www.volcengine.com)\n\n[![](https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/community"
+        },
+        {
+          "url": "https://medium.com/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7-%E5%80%92%E5%BA%95%E6%9C%89%E5%A4%9A%E6%99%BA%E6%85%A7/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF-artificial-neural-network-38bca19f189b",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 人工神经网络",
+          "goal": "定义",
+          "snippet": "# 人工神經網路 Artificial Neural Network - 人工智慧，倒底有多智慧？ - Medium\n\n[Sitemap](https://medium.com/sitemap/sitemap.xml)\n\n[Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=ut"
+        },
+        {
+          "url": "https://cloud.tencent.com/developer/article/1546084?policyId=1003",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "## 神经网络基础：反向传播算法\n\n![](https://qccommunity.qcloudimg.com/image/new.png)\n\n# 神经网络基础：反向传播算法\n\n![作者头像](https://ask.qcloudimg.com/custom-avatar/6166175/lbaxgaqgyz.jpg)\n![](https://ask.qcloudimg.com/http-save"
+        },
+        {
+          "url": "https://developer.nvidia.cn/blog/a-data-scientists-guide-to-gradient-descent-and-backpropagation-algorithms/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "ANN基本原理 逆向传播算法",
+          "goal": "机制",
+          "snippet": "![Home](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content/themes/nvidia/dist/images/nvidia-logo_28b633c7.svg)\n\n# 梯度下降和反向传播算法数据科学家指南\n\n![](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content"
+        }
+      ]
+    }
+  ],
+  "final_stats": {
+    "total_items": 23,
+    "avg_quality": 0.567,
+    "high_quality_items": 2,
+    "unique_domains": 18
+  },
+  "stop_reason": "达到最大轮次，当前结果仍未完美达标",
+  "generation_blocked": true,
+  "generation_reason": "未达到多源可信门槛 (要求 high_quality_items>=3, unique_domains>=2 | 实际 high_quality_items=2, unique_domains=18)",
+  "generation_threshold": {
+    "min_high_quality_items": 3,
+    "min_unique_domains": 2
+  },
+  "saved_doc": "D:\\VscodeProject\\my_tutor\\supplementary_docs\\ANN基本原理.md"
+}

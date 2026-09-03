@@ -1,0 +1,205 @@
+{
+  "video_name": "1.什么是AI？",
+  "rounds": [
+    {
+      "round": 1,
+      "plan": {
+        "topic": "什么是AI？",
+        "queries": [
+          {
+            "query": "什么是AI？ 人工智能的定义",
+            "goal": "解释什么是人工智能，以及它是如何工作的"
+          },
+          {
+            "query": "什么是AI？ AI的特点",
+            "goal": "详细说明人工智能的五大特点：感知、表示与推理、机器学习、人机交互和社会影响"
+          },
+          {
+            "query": "什么是AI？ AI的标准",
+            "goal": "阐述判断是否为AI的标准，包括环境感知、持续学习、自主规划、环境交互等"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 6,
+        "avg_quality": 0.608,
+        "high_quality_items": 2,
+        "unique_domains": 5
+      },
+      "stats": {
+        "total_items": 6,
+        "avg_quality": 0.608,
+        "high_quality_items": 2,
+        "unique_domains": 5
+      },
+      "new_items": 6,
+      "top_items": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+          "quality_score": 0.8,
+          "source": "tavily_api",
+          "query": "什么是AI？ 人工智能的定义",
+          "goal": "解释什么是人工智能，以及它是如何工作的",
+          "snippet": "[跳转到内容](#bodyContent)\n\n[搜索](/wiki/Special:Search \"搜索维基百科​[f]\")\n\n## 目录\n\n* [1 详细定义](#详细定义)\n* [2 概論](#概論)\n* [3 發展史](#發展史)\n* [4 研究課題](#研究課題)\n  + [4.1 演绎、推理和解决问题](#演绎、推理和解决问题)\n  + [4.2 知識表示法](#知識表示法)\n  + ["
+        },
+        {
+          "url": "https://zh.wikipedia.org/zh-hans/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+          "quality_score": 0.65,
+          "source": "tavily_api",
+          "query": "什么是AI？ 人工智能的定义",
+          "goal": "解释什么是人工智能，以及它是如何工作的",
+          "snippet": "[跳转到内容](#bodyContent)\n\n[搜索](/wiki/Special:Search \"搜索Wikipedia内容​[f]\")\n\n## 目录\n\n* [1 详细定义](#详细定义)\n* [2 概论](#概論)\n* [3 发展史](#發展史)\n* [4 研究课题](#研究課題)\n  + [4.1 演绎、推理和解决问题](#演绎、推理和解决问题)\n  + [4.2 知识表示法](#知識表示法"
+        },
+        {
+          "url": "https://www.opentext.com/cn/what-is/artificial-intelligence",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ 人工智能的定义",
+          "goal": "解释什么是人工智能，以及它是如何工作的",
+          "snippet": "[OpenText 主页。](#)\n\n[⟵ 返回到主导航](#back)\n\n## 为什么选择 OpenText\n\n* [为什么选择 OpenText](#why-opentext-driving-innovation)\n* [赋能于人](#why-opentext-empowering-people)\n* [我们如何比较](#why-opentext-how-we-compare)\n* [部署到任"
+        },
+        {
+          "url": "https://www.oracle.com/cn/artificial-intelligence/what-is-ai/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ AI的特点",
+          "goal": "详细说明人工智能的五大特点：感知、表示与推理、机器学习、人机交互和社会影响",
+          "snippet": "![]()\n\n# 什么是 AI？了解人工智能\n\n2021 年 5 月 13 日\n\n![]()\n\n**本文目录**\n\n## 人工智能术语辨析\n\n![](/a/ocom/img/yt-thumbnail-h-c5dh3w1dg.jpg)\n\n如今人工智能 (AI) 已变成了一个无所不包的术语，很多用来执行在过去需要人工输入的复杂任务的应用（例如与客户在线沟通或下棋）都可以被称作人工智能。在现实中，人工智"
+        },
+        {
+          "url": "https://www.trendmicro.com/zh_tw/what-is/ai.html",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ AI的特点",
+          "goal": "详细说明人工智能的五大特点：感知、表示与推理、机器学习、人机交互和社会影响",
+          "snippet": "![趨勢科技標誌](/content/dam/trendmicro/global/en/core/images/logos/tm-logo-red-white-t.svg)\n\n企業\n\n跨越威脅防護與資安風險管理之間的鴻溝\n\n![](https://trendmicro.scene7.com/is/image/trendmicro/trend-vision-one-laptop-console-na"
+        },
+        {
+          "url": "https://www.news.cn/tech/20260107/ada14675d325414cbcd3d894119c4e11/c.html",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ AI的标准",
+          "goal": "阐述判断是否为AI的标准，包括环境感知、持续学习、自主规划、环境交互等",
+          "snippet": " 我国发布全球AI标准库与术语库-新华网 \n\n![](//www.news.cn/detail2020/images/ewm.png)\n\n![](zxcode_20260107ada14675d325414cbcd3d894119c4e11.jpg)\n\n![]()\n\n![](//www.news.cn/2021detail/images/qrcode-app.png)\n\n[新华网](//www.n"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "plan": {
+        "topic": "什么是AI？",
+        "queries": [
+          {
+            "query": "什么是AI的定义？",
+            "goal": "获取AI的准确定义"
+          },
+          {
+            "query": "AI的工作机制是什么？",
+            "goal": "了解AI的基本工作原理"
+          },
+          {
+            "query": "AI有哪些经典案例？",
+            "goal": "收集AI领域的代表性案例"
+          },
+          {
+            "query": "AI有哪些常见误区？",
+            "goal": "识别和理解AI领域的常见误解"
+          }
+        ]
+      },
+      "round_stats": {
+        "total_items": 9,
+        "avg_quality": 0.59,
+        "high_quality_items": 2,
+        "unique_domains": 9
+      },
+      "stats": {
+        "total_items": 15,
+        "avg_quality": 0.597,
+        "high_quality_items": 4,
+        "unique_domains": 14
+      },
+      "new_items": 9,
+      "top_items": [
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+          "quality_score": 0.8,
+          "source": "tavily_api",
+          "query": "什么是AI？ 人工智能的定义",
+          "goal": "解释什么是人工智能，以及它是如何工作的",
+          "snippet": "[跳转到内容](#bodyContent)\n\n[搜索](/wiki/Special:Search \"搜索维基百科​[f]\")\n\n## 目录\n\n* [1 详细定义](#详细定义)\n* [2 概論](#概論)\n* [3 發展史](#發展史)\n* [4 研究課題](#研究課題)\n  + [4.1 演绎、推理和解决问题](#演绎、推理和解决问题)\n  + [4.2 知識表示法](#知識表示法)\n  + ["
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "quality_score": 0.8,
+          "source": "tavily_api",
+          "query": "什么是AI的定义？",
+          "goal": "获取AI的准确定义",
+          "snippet": "# Artificial intelligence - Wikipedia\n[Jump to content](https://en.wikipedia.org/wiki/Artificial_intelligence#bodyContent)\n\n- [x] Main menu \n\nMain menu\n\nmove to sidebar hide\n\n Navigation \n\n*   [Main p"
+        },
+        {
+          "url": "https://www.cnblogs.com/jiangai/p/19529357",
+          "quality_score": 0.695,
+          "source": "tavily_api",
+          "query": "AI有哪些常见误区？",
+          "goal": "识别和理解AI领域的常见误解",
+          "snippet": "![博客园logo](//assets.cnblogs.com/logo.svg)\n![搜索](//assets.cnblogs.com/icons/search.svg)\n![搜索](//assets.cnblogs.com/icons/enter.svg)\n![搜索](//assets.cnblogs.com/icons/search.svg)\n![搜索](//assets.cnblogs.c"
+        },
+        {
+          "url": "https://zh.wikipedia.org/zh-hans/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+          "quality_score": 0.65,
+          "source": "tavily_api",
+          "query": "什么是AI？ 人工智能的定义",
+          "goal": "解释什么是人工智能，以及它是如何工作的",
+          "snippet": "[跳转到内容](#bodyContent)\n\n[搜索](/wiki/Special:Search \"搜索Wikipedia内容​[f]\")\n\n## 目录\n\n* [1 详细定义](#详细定义)\n* [2 概论](#概論)\n* [3 发展史](#發展史)\n* [4 研究课题](#研究課題)\n  + [4.1 演绎、推理和解决问题](#演绎、推理和解决问题)\n  + [4.2 知识表示法](#知識表示法"
+        },
+        {
+          "url": "https://www.opentext.com/cn/what-is/artificial-intelligence",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ 人工智能的定义",
+          "goal": "解释什么是人工智能，以及它是如何工作的",
+          "snippet": "[OpenText 主页。](#)\n\n[⟵ 返回到主导航](#back)\n\n## 为什么选择 OpenText\n\n* [为什么选择 OpenText](#why-opentext-driving-innovation)\n* [赋能于人](#why-opentext-empowering-people)\n* [我们如何比较](#why-opentext-how-we-compare)\n* [部署到任"
+        },
+        {
+          "url": "https://www.oracle.com/cn/artificial-intelligence/what-is-ai/",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ AI的特点",
+          "goal": "详细说明人工智能的五大特点：感知、表示与推理、机器学习、人机交互和社会影响",
+          "snippet": "![]()\n\n# 什么是 AI？了解人工智能\n\n2021 年 5 月 13 日\n\n![]()\n\n**本文目录**\n\n## 人工智能术语辨析\n\n![](/a/ocom/img/yt-thumbnail-h-c5dh3w1dg.jpg)\n\n如今人工智能 (AI) 已变成了一个无所不包的术语，很多用来执行在过去需要人工输入的复杂任务的应用（例如与客户在线沟通或下棋）都可以被称作人工智能。在现实中，人工智"
+        },
+        {
+          "url": "https://www.trendmicro.com/zh_tw/what-is/ai.html",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ AI的特点",
+          "goal": "详细说明人工智能的五大特点：感知、表示与推理、机器学习、人机交互和社会影响",
+          "snippet": "![趨勢科技標誌](/content/dam/trendmicro/global/en/core/images/logos/tm-logo-red-white-t.svg)\n\n企業\n\n跨越威脅防護與資安風險管理之間的鴻溝\n\n![](https://trendmicro.scene7.com/is/image/trendmicro/trend-vision-one-laptop-console-na"
+        },
+        {
+          "url": "https://www.news.cn/tech/20260107/ada14675d325414cbcd3d894119c4e11/c.html",
+          "quality_score": 0.55,
+          "source": "tavily_api",
+          "query": "什么是AI？ AI的标准",
+          "goal": "阐述判断是否为AI的标准，包括环境感知、持续学习、自主规划、环境交互等",
+          "snippet": " 我国发布全球AI标准库与术语库-新华网 \n\n![](//www.news.cn/detail2020/images/ewm.png)\n\n![](zxcode_20260107ada14675d325414cbcd3d894119c4e11.jpg)\n\n![]()\n\n![](//www.news.cn/2021detail/images/qrcode-app.png)\n\n[新华网](//www.n"
+        }
+      ]
+    }
+  ],
+  "final_stats": {
+    "total_items": 15,
+    "avg_quality": 0.597,
+    "high_quality_items": 4,
+    "unique_domains": 14
+  },
+  "stop_reason": "资料质量与数量已达标",
+  "generation_blocked": false,
+  "generation_reason": "",
+  "generation_threshold": {
+    "min_high_quality_items": 3,
+    "min_unique_domains": 2
+  },
+  "saved_doc": "D:\\VscodeProject\\my_tutor\\supplementary_docs\\1.什么是AI？.md"
+}

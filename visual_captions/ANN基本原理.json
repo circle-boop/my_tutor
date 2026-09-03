@@ -1,0 +1,162 @@
+{
+  "video_name": "ANN基本原理",
+  "frame_count": 14,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "status": "completed",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000000000.jpg",
+      "reason": "first_frame",
+      "scene_type": "mixed",
+      "visual_text": "神经网络ANN",
+      "ocr_text": "神经网络ANN",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 3.97,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000003966.jpg",
+      "reason": "hash_diff=16, edge_den=0.048",
+      "scene_type": "mixed",
+      "visual_text": "是一种能够模拟大脑运作机理的算法",
+      "ocr_text": "nxxcxx.github.io/Neural-Network/\nInfo\nNeurons 241\nSignals 19003\nSettings\nMax Signals 8000\nSignal Size 0.97\nSignal Min Speed 0.035\nSignal Max Speed 0.005\nNeuron Size 1.02\nNeuron Opacity 1\nAxon Opacity Mult 1\nSignal Color #f44000\nNeuron Color #00ff11\nAxon Color #0099ff\nBackground #0d0d0f\nClose Controls",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 6.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000005999.jpg",
+      "reason": "hash_diff=24, edge_den=0.054",
+      "scene_type": "mixed",
+      "visual_text": "人们通过5感接收外部数据",
+      "ocr_text": "人们通过5感接收外部数据",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 8.03,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000008033.jpg",
+      "reason": "hash_diff=21, edge_den=0.059",
+      "scene_type": "mixed",
+      "visual_text": "人们通过5感接收外部数据",
+      "ocr_text": "人们通过5感接收外部数据",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.95
+    },
+    {
+      "timestamp": 10.07,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000010066.jpg",
+      "reason": "hash_diff=15, edge_den=0.059",
+      "scene_type": "mixed",
+      "visual_text": "不同的数据将触发/激活",
+      "ocr_text": "不同的数据将触发/激活",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 12.1,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000012099.jpg",
+      "reason": "hash_diff=16, edge_den=0.054",
+      "scene_type": "chart",
+      "visual_text": "大脑中不同的神经元组合",
+      "ocr_text": "大脑中不同的神经元组合",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 14.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000014133.jpg",
+      "reason": "hash_diff=16, edge_den=0.051",
+      "scene_type": "mixed",
+      "visual_text": "进行数据处理和计算",
+      "ocr_text": "进行数据处理和计算",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 16.17,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000016166.jpg",
+      "reason": "hash_diff=17, edge_den=0.048",
+      "scene_type": "mixed",
+      "visual_text": "为了实现相同的运作机理",
+      "ocr_text": "为了实现相同的运作机理",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 18.2,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000018199.jpg",
+      "reason": "hash_diff=26, edge_den=0.029",
+      "scene_type": "chart",
+      "visual_text": "人们设计了人工神经元",
+      "ocr_text": "人们设计了人工神经元 www.cybercontrols.org",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 20.4,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000020399.jpg",
+      "reason": "hash_diff=15, edge_den=0.030",
+      "scene_type": "chart",
+      "visual_text": "Type: Convolutional, Data Set: MNIST, Hidden Neurons: 19794, Synapses: 361000, Synapses shown: 2%, Learning: BP, Denis Dmitriev, www.cybercontrols.org, 并将其编织成网",
+      "ocr_text": "Type: Convolutional Data Set: MNIST Hidden Neurons: 19794 Synapses: 361000 Synapses shown: 2% Learning: BP Denis Dmitriev www.cybercontrols.org 并将其编织成网",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 22.43,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000022433.jpg",
+      "reason": "hash_diff=24, edge_den=0.033",
+      "scene_type": "mixed",
+      "visual_text": "构成了人工“大脑”-神经网络模型",
+      "ocr_text": "Type: Convolutional Data Set: MNIST Hidden Neurons: 19794 Synapses: 3610000 Synapses shown: 2% Learning: BP Denis Dmitriev 构成了人工“大脑”-神经网络模型",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 30.53,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000030533.jpg",
+      "reason": "hash_diff=29, edge_den=0.025",
+      "scene_type": "mixed",
+      "visual_text": "人造神经元是整个网络系统的最小单位",
+      "ocr_text": "人造神经元是整个网络系统的最小单位",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 121.23,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000121233.jpg",
+      "reason": "hash_diff=20, edge_den=0.038",
+      "scene_type": "mixed",
+      "visual_text": "1. Setup neural net: setup init-net 2. Train neural net: train train once learning-rate 0.0100 examples-per-epoch 22 hidden-sizes-string [25 5 5 10] Error vs. Epochs 0 1 0 10 Epochs On Off dropout? dropout-rate 503",
+      "ocr_text": "1. Setup neural net: setup init-net 2. Train neural net: train train once learning-rate 0.0100 examples-per-epoch 22 hidden-sizes-string [25 5 5 10] Error vs. Epochs 0 1 0 10 Epochs On Off dropout? dropout-rate 503",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 301.17,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\ANN基本原理\\0000301166.jpg",
+      "reason": "hash_diff=25, edge_den=0.029",
+      "scene_type": "unknown",
+      "visual_text": "",
+      "ocr_text": "即使我们增加偏差值bias",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    }
+  ]
+}

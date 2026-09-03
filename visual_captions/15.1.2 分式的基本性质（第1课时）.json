@@ -1,0 +1,194 @@
+{
+  "video_name": "15.1.2 分式的基本性质（第1课时）",
+  "frame_count": 14,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "status": "completed",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000000000.jpg",
+      "reason": "first_frame",
+      "scene_type": "blackboard",
+      "visual_text": "分式的基本性质 第1课时",
+      "ocr_text": "数学微课帮 bilibili 分式的基本性质 第1课时",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 12.27,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000012266.jpg",
+      "reason": "hash_diff=18, edge_den=0.047",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 学习目标 1、理解分式的基本性质。 同步新课提高篇——典例分析+能力提升 2、能运用分式的基本性质进行简单变形。 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众 彩课程！",
+      "ocr_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 本课程介绍：本课程分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——知识讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众 彩课程！",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 14.73,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000014733.jpg",
+      "reason": "hash_diff=15, edge_den=0.046",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 程！ 更多精彩课程",
+      "ocr_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 程！ 更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 16.83,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000016833.jpg",
+      "reason": "hash_diff=16, edge_den=0.036",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课 2、进行学习之前，先查目录 3、记住：课后一定加以练习巩固 注意：教学视频中的课程都有对应的文本 关注微信公众号：【数学微课帮】，联系 更多精彩课程",
+      "ocr_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课 2、进行学习之前，先查目录 3、记住：课后一定加以练习巩固 注意：教学视频中的课程都有对应的文本 关注微信公众号：【数学微课帮】，联系 微信公众号：数学微课帮 更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 18.83,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000018833.jpg",
+      "reason": "hash_diff=16, edge_den=0.045",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 程： 更多精彩课程",
+      "ocr_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 微信公众号：数学微课帮 程： 更多精彩课程",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 20.83,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000020833.jpg",
+      "reason": "hash_diff=22, edge_den=0.042",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 数学微课帮——更多精彩课程！",
+      "ocr_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 本课程介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解+例题分析 同步新课提高篇——典例分析+能力提升 本课程使用方法： 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先查目录找到所要学习的教学视频课程！ 3、记住：课后一定加以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 数学微课帮——更多精彩课程！",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 215.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000215133.jpg",
+      "reason": "hash_diff=18, edge_den=0.025",
+      "scene_type": "blackboard",
+      "visual_text": "例2: 下列等式的右边是怎样从左边得到的？ 二、分式的基本性质 (1) a/(2b) = (ac)/(2bc) (c≠0) (2) x^3/(xy) = x^2/y 其中A,B,C是整式。 用语言表示: 分式的分子与分母同乘以（或除以）一个不等于0的整式，分式的值不变。",
+      "ocr_text": "例2:下列等式的右边是怎样从左边得到的？ 二、分式的基本性质 (1) a/(2b) = (ac)/(2bc) (c≠0) (2) x^3/(xy) = x^2/y 其中A,B,C是整式。 用语言表示: 分式的分子与分母同乘以（或除以）一个不等于0的整式，分式的值不变。",
+      "formula_latex": [
+        "\\frac{a}{2b} = \\frac{ac}{2bc} (c \\neq 0)",
+        "\\frac{x^3}{xy} = \\frac{x^2}{y}",
+        "\\frac{A}{B} = \\frac{A \\cdot C}{B \\cdot C} (C \\neq 0)",
+        "\\frac{A}{B} = \\frac{A \\div C}{B \\div C} (C \\neq 0)"
+      ],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 297.27,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000297266.jpg",
+      "reason": "hash_diff=16, edge_den=0.025",
+      "scene_type": "blackboard",
+      "visual_text": "例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给 C=0时分式无 为什么本题",
+      "ocr_text": "例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给 C=0时分式无 为什么本题",
+      "formula_latex": [
+        "\\frac{a}{2b} = \\frac{ac}{2bc} (c \\neq 0)",
+        " \\frac{x^3}{xy} = \\frac{x^2}{y} ",
+        " \\frac{a}{2b} = \\frac{a \\cdot c}{2b \\cdot c} = \\frac{ac}{2bc} ",
+        " \\frac{x^3}{xy} = \\frac{x^3 \\div x}{xy \\div x} = \\frac{x^2}{y} "
+      ],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 304.27,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000304266.jpg",
+      "reason": "hash_diff=21, edge_den=0.025",
+      "scene_type": "blackboard",
+      "visual_text": "例1：下列等式的右边是怎样从左边得到的？\n(1) a/2b = ac/2bc (c≠0)  (2) x³/xy = x²/y\n【解析】(1) 由 c≠0\n知 a/2b = a·c/2b·c = ac/2bc\n(2) 由 x≠0,\n知 x³/xy = x³÷x/xy÷x = x²/y\n为什么给出 c≠0？\nC=0时分式无定\n为什么本题未给 x≠0？",
+      "ocr_text": "数学微课帮bilibili\n例1：下列等式的右边是怎样从左边得到的？\n(1) a/2b = ac/2bc (c≠0)  (2) x³/xy = x²/y\n【解析】(1) 由 c≠0\n知 a/2b = a·c/2b·c = ac/2bc\n(2) 由 x≠0,\n知 x³/xy = x³÷x/xy÷x = x²/y\n为什么给出 c≠0？\nC=0时分式无定\n为什么本题未给 x≠0？",
+      "formula_latex": [
+        " \\frac{a}{2b} = \\frac{ac}{2bc} \\quad (c \\ne 0) ",
+        " \\frac{x^3}{xy} = \\frac{x^2}{y} ",
+        " \\frac{a}{2b} = \\frac{a \\cdot c}{2b \\cdot c} = \\frac{ac}{2bc} ",
+        " \\frac{x^3}{xy} = \\frac{x^3 \\div x}{xy \\div x} = \\frac{x^2}{y} "
+      ],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 321.33,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000321333.jpg",
+      "reason": "hash_diff=15, edge_den=0.026",
+      "scene_type": "blackboard",
+      "visual_text": "例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给出 c≠0 为什么本题未给 x≠0",
+      "ocr_text": "例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给出 c≠0 为什么本题未给 x≠0",
+      "formula_latex": [
+        "\\frac{a}{2b} = \\frac{ac}{2bc} (c \\neq 0)",
+        " \\frac{x^3}{xy} = \\frac{x^2}{y}",
+        "\\frac{a}{2b} = \\frac{a \\cdot c}{2b \\cdot c} = \\frac{ac}{2bc}",
+        "\\frac{x^3}{xy} = \\frac{x^3 \\div x}{xy \\div x} = \\frac{x^2}{y}"
+      ],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 338.47,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000338466.jpg",
+      "reason": "hash_diff=15, edge_den=0.026",
+      "scene_type": "blackboard",
+      "visual_text": "例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y",
+      "ocr_text": "例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y",
+      "formula_latex": [
+        "\\frac{a}{2b} = \\frac{ac}{2bc} (c \\ne 0)"
+      ],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 351.27,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000351266.jpg",
+      "reason": "hash_diff=15, edge_den=0.026",
+      "scene_type": "blackboard",
+      "visual_text": "例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给 c≠0？ C=0时分式无意义。 为什么本题不",
+      "ocr_text": "数学微课帮 bilibili 例1：下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给 c≠0？ C=0时分式无意义。 为什么本题不",
+      "formula_latex": [
+        "a/2b = ac/2bc",
+        "x^3/xy = x^2/y",
+        "a/2b = a\\cdot c/2b\\cdot c = ac/2bc",
+        "x^3/xy = x^3\\div x/xy\\div x = x^2/y"
+      ],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 376.9,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000376900.jpg",
+      "reason": "hash_diff=19, edge_den=0.026",
+      "scene_type": "blackboard",
+      "visual_text": "例1: 下列等式的右边是怎样从左边得到的？ (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1) 由 c≠0 知 a/2b = a·c/2b·c = ac/2bc (2) 由 x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给出 c≠0? C=0时分式无意义。 为什么本题未给 x≠0? x=0时分式无意义。",
+      "ocr_text": "数学微课帮bilibili 例1:下列等式的右边是怎样从左边得到的? (1) a/2b = ac/2bc (c≠0) (2) x³/xy = x²/y 【解析】(1)由c≠0 知 a/2b = a·c/2b·c = ac/2bc (2)由x≠0, 知 x³/xy = x³÷x/xy÷x = x²/y 为什么给出c≠0? C=0时分式无意义。 为什么本题未给x≠0? x=0时分式无意义。",
+      "formula_latex": [
+        "a/2b = ac/2bc",
+        "x^3/xy = x^2/y",
+        "a/2b = a\\cdot c/2b\\cdot c = ac/2bc",
+        "x^3/xy = x^3\\div x/xy\\div x = x^2/y"
+      ],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 491.63,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\15.1.2 分式的基本性质（第1课时）\\0000491633.jpg",
+      "reason": "hash_diff=22, edge_den=0.047",
+      "scene_type": "blackboard",
+      "visual_text": "初中数学《同步新课基础篇》 小结 本课件介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解，例题分析 同步新课提高篇——典例分析+能力提升 (或除以)一个不等于0的整式，分式的值不变. 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先在日历找到所要学习的教学视频课程！ 3、记住：课后一定要以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 数学微课帮——更多精彩课程！",
+      "ocr_text": "数学微课帮 bilibili 初中数学《同步新课基础篇》 小结 本课件介绍：本系列课分【基础篇】与【提高篇】两套教学视频 同步新课基础篇——新课讲解，例题分析 同步新课提高篇——典例分析+能力提升 (或除以)一个不等于0的整式，分式的值不变. 1、学习数学不能只听课和看课，要勤于思考和动手练习！ 2、进行学习之前，先在日历找到所要学习的教学视频课程！ 3、记住：课后一定要以练习巩固！学好数学最终要靠自己！ 注意：教学视频中的课程都有对应的文本资料，便于学习。 关注微信公众号：【数学微课帮】，联系我们获取学习资料。 数学微课帮——更多精彩课程！",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="640" viewBox="0 0 1180 640">
+  <defs>
+    <style>
+      .title { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 28px; font-weight: 700; fill: #172033; }
+      .subtitle { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 16px; fill: #5d667a; }
+      .lane-title { font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #172033; }
+      .box-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #172033; }
+      .box-text { font-family: Arial, sans-serif; font-size: 14px; fill: #4a5368; }
+      .small { font-family: Arial, sans-serif; font-size: 13px; fill: #667085; }
+      .caption { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 16px; fill: #384154; }
+      .box { fill: #ffffff; stroke-width: 1.4; rx: 8; }
+      .arrow { stroke: #667085; stroke-width: 1.8; fill: none; marker-end: url(#arrow); }
+      .muted-arrow { stroke: #98a2b3; stroke-width: 1.5; fill: none; marker-end: url(#arrow-muted); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#667085"/>
+    </marker>
+    <marker id="arrow-muted" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#98a2b3"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="640" fill="#f7f9fc"/>
+
+  <text x="590" y="46" text-anchor="middle" class="title">三种智能问答方法对比</text>
+  <text x="590" y="74" text-anchor="middle" class="subtitle">不同方法在生成回答前引入的上下文信息不同</text>
+
+  <rect x="54" y="112" width="330" height="430" rx="14" fill="#f5f8ff" stroke="#b9c7ea" stroke-width="1.5"/>
+  <rect x="425" y="112" width="330" height="430" rx="14" fill="#f3fbf7" stroke="#abd6bd" stroke-width="1.5"/>
+  <rect x="796" y="112" width="330" height="430" rx="14" fill="#fff8f1" stroke="#eac59b" stroke-width="1.5"/>
+
+  <text x="219" y="151" text-anchor="middle" class="lane-title">Plain LLM</text>
+  <text x="590" y="151" text-anchor="middle" class="lane-title">Subtitle RAG</text>
+  <text x="961" y="151" text-anchor="middle" class="lane-title">Multimodal Context RAG</text>
+
+  <rect x="102" y="182" width="234" height="72" class="box" stroke="#7f97d8"/>
+  <text x="219" y="210" text-anchor="middle" class="box-title">学生问题</text>
+  <text x="219" y="234" text-anchor="middle" class="box-text">仅输入问题本身</text>
+
+  <rect x="102" y="312" width="234" height="76" class="box" stroke="#7f97d8"/>
+  <text x="219" y="340" text-anchor="middle" class="box-title">大模型生成</text>
+  <text x="219" y="364" text-anchor="middle" class="box-text">基于通用知识回答</text>
+
+  <rect x="102" y="446" width="234" height="56" class="box" stroke="#7f97d8"/>
+  <text x="219" y="480" text-anchor="middle" class="box-title">生成回答</text>
+
+  <path d="M219 254 L219 304" class="arrow"/>
+  <path d="M219 388 L219 438" class="arrow"/>
+
+  <rect x="473" y="182" width="234" height="72" class="box" stroke="#72b78c"/>
+  <text x="590" y="210" text-anchor="middle" class="box-title">学生问题</text>
+  <text x="590" y="234" text-anchor="middle" class="box-text">问题 + 当前播放时间</text>
+
+  <rect x="473" y="276" width="234" height="102" class="box" stroke="#72b78c"/>
+  <text x="590" y="306" text-anchor="middle" class="box-title">文本上下文检索</text>
+  <text x="590" y="330" text-anchor="middle" class="box-text">Top-k 字幕片段</text>
+  <text x="590" y="352" text-anchor="middle" class="box-text">当前时间窗字幕</text>
+
+  <rect x="473" y="398" width="234" height="72" class="box" stroke="#72b78c"/>
+  <text x="590" y="426" text-anchor="middle" class="box-title">大模型生成</text>
+  <text x="590" y="450" text-anchor="middle" class="box-text">基于字幕依据回答</text>
+
+  <rect x="473" y="500" width="234" height="56" class="box" stroke="#72b78c"/>
+  <text x="590" y="534" text-anchor="middle" class="box-title">生成回答</text>
+
+  <rect x="446" y="575" width="288" height="32" rx="7" fill="#e8f5ee" stroke="#abd6bd"/>
+  <text x="590" y="596" text-anchor="middle" class="small">额外来源：课程补充资料</text>
+
+  <path d="M590 254 L590 268" class="arrow"/>
+  <path d="M590 378 L590 390" class="arrow"/>
+  <path d="M590 470 L590 492" class="arrow"/>
+  <path d="M590 574 L590 558" class="muted-arrow"/>
+
+  <rect x="844" y="182" width="234" height="72" class="box" stroke="#d79d5b"/>
+  <text x="961" y="210" text-anchor="middle" class="box-title">学生问题</text>
+  <text x="961" y="234" text-anchor="middle" class="box-text">问题 + 当前播放时间</text>
+
+  <rect x="844" y="276" width="234" height="118" class="box" stroke="#d79d5b"/>
+  <text x="961" y="306" text-anchor="middle" class="box-title">多模态检索</text>
+  <text x="961" y="330" text-anchor="middle" class="box-text">字幕片段</text>
+  <text x="961" y="352" text-anchor="middle" class="box-text">视觉语义 / OCR</text>
+  <text x="961" y="374" text-anchor="middle" class="box-text">公式、图表、关键帧</text>
+
+  <rect x="844" y="414" width="234" height="76" class="box" stroke="#d79d5b"/>
+  <text x="961" y="442" text-anchor="middle" class="box-title">上下文融合</text>
+  <text x="961" y="466" text-anchor="middle" class="box-text">当前时间窗 + 检索结果</text>
+
+  <rect x="844" y="510" width="234" height="56" class="box" stroke="#d79d5b"/>
+  <text x="961" y="544" text-anchor="middle" class="box-title">生成回答</text>
+
+  <rect x="817" y="575" width="288" height="32" rx="7" fill="#fff0dd" stroke="#eac59b"/>
+  <text x="961" y="596" text-anchor="middle" class="small">额外来源：课程补充资料</text>
+
+  <path d="M961 254 L961 268" class="arrow"/>
+  <path d="M961 394 L961 406" class="arrow"/>
+  <path d="M961 490 L961 502" class="arrow"/>
+  <path d="M961 574 L961 568" class="muted-arrow"/>
+
+  <line x1="405" y1="145" x2="405" y2="520" stroke="#d0d5dd" stroke-width="1.2" stroke-dasharray="6 8"/>
+  <line x1="776" y1="145" x2="776" y2="520" stroke="#d0d5dd" stroke-width="1.2" stroke-dasharray="6 8"/>
+
+  <text x="590" y="624" text-anchor="middle" class="caption">图4.x  Plain LLM、Subtitle RAG 与 Multimodal Context RAG 的上下文输入对比</text>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "video_name": "神经网络原理",
+  "frame_count": 1,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "status": "completed",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\神经网络原理\\0000000000.jpg",
+      "reason": "first_frame",
+      "scene_type": "unknown",
+      "visual_text": "",
+      "ocr_text": "人工智能研究所_哔哩哔哩",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    }
+  ]
+}

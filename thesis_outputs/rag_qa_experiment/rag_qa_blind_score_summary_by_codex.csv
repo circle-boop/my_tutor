@@ -1,0 +1,4 @@
+﻿strategy,relevance_avg,accuracy_avg,context_match_avg,completeness_avg,hallucination_control_avg,total_score_avg
+method_A,3.46,2.75,2.08,2.5,3.04,2.77
+method_B,4.08,3.67,4.67,3.46,3.17,3.81
+method_C,4.58,3.96,4.38,3.96,3.54,4.08

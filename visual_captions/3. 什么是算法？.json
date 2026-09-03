@@ -1,0 +1,239 @@
+{
+  "video_name": "3. 什么是算法？",
+  "frame_count": 21,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "status": "completed",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000000000.jpg",
+      "reason": "first_frame",
+      "scene_type": "ppt",
+      "visual_text": "第3课：什么是算法？",
+      "ocr_text": "第3课：什么是算法？Hello everyone",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 18.07,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000018066.jpg",
+      "reason": "hash_diff=29, edge_den=0.109",
+      "scene_type": "mixed",
+      "visual_text": "JohnThree的数字课",
+      "ocr_text": "JohnThree的数字课 没错",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 43.03,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000043033.jpg",
+      "reason": "hash_diff=27, edge_den=0.058",
+      "scene_type": "mixed",
+      "visual_text": "花刺子米被称为『代数之父』",
+      "ocr_text": "JohnThree的数学课bilibili 花刺子米被称为『代数之父』",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 45.1,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000045099.jpg",
+      "reason": "hash_diff=37, edge_den=0.049",
+      "scene_type": "blackboard",
+      "visual_text": "『代数』这个词就是他发明的",
+      "ocr_text": "『代数』这个词就是他发明的",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.95
+    },
+    {
+      "timestamp": 80.3,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000080299.jpg",
+      "reason": "hash_diff=35, edge_den=0.055",
+      "scene_type": "mixed",
+      "visual_text": "到了20世纪早期",
+      "ocr_text": "到了20世纪早期",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 87.93,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000087933.jpg",
+      "reason": "hash_diff=30, edge_den=0.035",
+      "scene_type": "unknown",
+      "visual_text": "机器是可以通过算法指令",
+      "ocr_text": "JohnThree的数学课bilibili 机器是可以通过算法指令",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 91.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000090999.jpg",
+      "reason": "hash_diff=18, edge_den=0.034",
+      "scene_type": "unknown",
+      "visual_text": "来解决复杂的数学问题的",
+      "ocr_text": "JohnThree的数学课bilibili 来解决复杂的数学问题的",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 94.57,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000094566.jpg",
+      "reason": "hash_diff=20, edge_den=0.037",
+      "scene_type": "unknown",
+      "visual_text": "",
+      "ocr_text": "JohnThree的数学课bilibili 才被引入计算机领域",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 96.6,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000096599.jpg",
+      "reason": "hash_diff=26, edge_den=0.045",
+      "scene_type": "unknown",
+      "visual_text": "",
+      "ocr_text": "JohnThree的数学课bilibili 才被引入计算机领域",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 98.63,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000098633.jpg",
+      "reason": "hash_diff=37, edge_den=0.049",
+      "scene_type": "unknown",
+      "visual_text": "注：电影《模仿游戏》中的计算机Bombe",
+      "ocr_text": "注：电影《模仿游戏》中的计算机Bombe",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 100.67,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000100666.jpg",
+      "reason": "hash_diff=26, edge_den=0.048",
+      "scene_type": "unknown",
+      "visual_text": "注：电影《模仿游戏》中的计算机Bombe",
+      "ocr_text": "JohnThree的数学课bilibili 注：电影《模仿游戏》中的计算机Bombe",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 102.7,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000102699.jpg",
+      "reason": "hash_diff=30, edge_den=0.040",
+      "scene_type": "unknown",
+      "visual_text": "注：电影《模仿游戏》中的计算机Bombe",
+      "ocr_text": "注：电影《模仿游戏》中的计算机Bombe",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 116.93,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000116933.jpg",
+      "reason": "hash_diff=32, edge_den=0.026",
+      "scene_type": "ppt",
+      "visual_text": "例1：做蛋糕的算法",
+      "ocr_text": "例1：做蛋糕的算法\n@JohnThree的数学课\n附送一份更详细的做蛋糕算法，放在视频末尾\n我们的输入是什么？\n我们的中间步骤是什么\n1.制作蛋黄糊\n2.制作蛋白霜\n3.预热烤箱\n4.制作蛋糕糊\n5.放入烤箱烘焙",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 143.27,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000143266.jpg",
+      "reason": "hash_diff=23, edge_den=0.027",
+      "scene_type": "ppt",
+      "visual_text": "例4：沏茶的算法",
+      "ocr_text": "例4：沏茶的算法 step 4",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 148.57,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000148566.jpg",
+      "reason": "hash_diff=23, edge_den=0.026",
+      "scene_type": "ppt",
+      "visual_text": "例4：沏茶的算法",
+      "ocr_text": "例4：沏茶的算法 step 6 请问你能说出沏茶算法的",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 171.27,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000171266.jpg",
+      "reason": "hash_diff=23, edge_den=0.028",
+      "scene_type": "unknown",
+      "visual_text": "比如你让计算机",
+      "ocr_text": "比如你让计算机",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 211.87,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000211866.jpg",
+      "reason": "hash_diff=35, edge_den=0.025",
+      "scene_type": "mixed",
+      "visual_text": "当被点击 移动50步 说你好! John",
+      "ocr_text": "并给我打个招呼",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.95
+    },
+    {
+      "timestamp": 225.17,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000225166.jpg",
+      "reason": "hash_diff=20, edge_den=0.047",
+      "scene_type": "ppt",
+      "visual_text": "程序员如何编写算法？ 小任务：写一个让躺在沙发上的爸爸去开门的算法 现在请你做个小小任务",
+      "ocr_text": "程序员如何编写算法？ 小任务：写一个让躺在沙发上的爸爸去开门的算法 现在请你做个小小任务",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 264.2,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000264199.jpg",
+      "reason": "hash_diff=24, edge_den=0.025",
+      "scene_type": "mixed",
+      "visual_text": "Bug",
+      "ocr_text": "Bug 它真的就是小虫子",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 266.23,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000266233.jpg",
+      "reason": "hash_diff=20, edge_den=0.028",
+      "scene_type": "blackboard",
+      "visual_text": "Bug",
+      "ocr_text": "Bug 1700 Started Cosine Tape (Sine check) 1525 Stood Multi Adder Test. 1545 First actual case of bug being found. 1700 closed down. Relay #70 Panel F (moth) in relay. 1949年9月9日的晚上",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 290.4,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\3. 什么是算法？\\0000290399.jpg",
+      "reason": "hash_diff=32, edge_den=0.038",
+      "scene_type": "unknown",
+      "visual_text": "",
+      "ocr_text": "",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.0
+    }
+  ]
+}

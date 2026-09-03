@@ -1,0 +1,151 @@
+{
+  "video_name": "2. 机器是怎么学习的？",
+  "frame_count": 13,
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "status": "completed",
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000000000.jpg",
+      "reason": "first_frame",
+      "scene_type": "ppt",
+      "visual_text": "第二课：机器是怎么学习的？",
+      "ocr_text": "第二课：机器是怎么学习的？Hello everyone",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 46.17,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000046166.jpg",
+      "reason": "hash_diff=23, edge_den=0.026",
+      "scene_type": "mixed",
+      "visual_text": "你怎么看？ 金属和塑料零件组成的音响，怎么就变得智 小爱同学 天猫精灵 小度 注：原课程此处的举例为Amazon的Echo音响",
+      "ocr_text": "你怎么看？ 金属和塑料零件组成的音响，怎么就变得智 小爱同学 天猫精灵 小度 注：原课程此处的举例为Amazon的Echo音响",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 124.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000124133.jpg",
+      "reason": "hash_diff=21, edge_den=0.025",
+      "scene_type": "ppt",
+      "visual_text": "你大脑里的数据集",
+      "ocr_text": "你大脑里的数据集 这是因为",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 139.57,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000139566.jpg",
+      "reason": "hash_diff=27, edge_den=0.025",
+      "scene_type": "ppt",
+      "visual_text": "人类的预测和决策\n我们每天都在无意识的，根据我们大脑里的『数据集』，不断地做出预测和决策\n你从来没有吃过",
+      "ocr_text": "人类的预测和决策\n我们每天都在无意识\n的，根据我们大脑里\n的『数据集』，不断\n地做出预测和决策\n你从来没有吃过",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 198.1,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000198099.jpg",
+      "reason": "hash_diff=25, edge_den=0.026",
+      "scene_type": "mixed",
+      "visual_text": "web developer, machine learning researcher, Jonas Jonjegan, Henry Rowley, 快速涂鸦是我们几个在谷歌开发的, Quickdraw is a game a few of us at Google made",
+      "ocr_text": "JohnThree的数学课bilibili web developer Jonas Jonjegan machine learning researcher Henry Rowley 快速涂鸦是我们几个在谷歌开发的 Quickdraw is a game a few of us at Google made @JohnThree的数学课 译",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 200.13,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000200133.jpg",
+      "reason": "hash_diff=23, edge_den=0.030",
+      "scene_type": "mixed",
+      "visual_text": "QUICK, DRAW! 快速涂鸦是我们几个在谷歌开发的 Quickdraw is a game a few of us at Google made",
+      "ocr_text": "JohnThree的数学课 bilibili QUICK, DRAW! Can a neural network learn to recognize doodles? 快速涂鸦是我们几个在谷歌开发的 Quickdraw is a game a few of us at Google made @JohnThree的数学课 译",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 254.4,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000254399.jpg",
+      "reason": "hash_diff=26, edge_den=0.025",
+      "scene_type": "unknown",
+      "visual_text": "",
+      "ocr_text": "JohnThree的数学课 bilibili 猜测你涂鸦内容的重要部分 the computer can guess your drawings correctly @JohnThree的数学课 译",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 276.67,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000276666.jpg",
+      "reason": "hash_diff=19, edge_den=0.025",
+      "scene_type": "unknown",
+      "visual_text": "然后计算机会开始发现一些规律",
+      "ocr_text": "JohnThree的数学课bilibili 然后计算机会开始发现一些规律 and then it starts to see patterns like that @JohnThree的数学课 译",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 308.3,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000308299.jpg",
+      "reason": "hash_diff=20, edge_den=0.026",
+      "scene_type": "mixed",
+      "visual_text": "我们希望它能激发其他人去思考",
+      "ocr_text": "JohnThree的数学课bilibili I see car, police car 我们希望它能激发其他人去思考 @JohnThree的数学课 译",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.9
+    },
+    {
+      "timestamp": 320.7,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000320699.jpg",
+      "reason": "hash_diff=24, edge_den=0.025",
+      "scene_type": "mixed",
+      "visual_text": "快速，涂鸦！\nWhat do 50 million drawings look like?\nOver 15 million players have contributed millions of drawings playing Quick Draw.\nThese doodles are a unique data set that can help developers train new neural networks,\nhelp researchers see patterns in how people around the world draw, and help artists\ncreate things we haven't begun to think of. That's why we're open-sourcing this, for\nanyone to play with.\nSelect a drawing\n自己的涂鸦添加进去",
+      "ocr_text": "快速，涂鸦！\nWhat do 50 million drawings look like?\nOver 15 million players have contributed millions of drawings playing Quick Draw.\nThese doodles are a unique data set that can help developers train new neural networks,\nhelp researchers see patterns in how people around the world draw, and help artists\ncreate things we haven't begun to think of. That's why we're open-sourcing this, for\nanyone to play with.\nSelect a drawing\n自己的涂鸦添加进去",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 395.9,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000395899.jpg",
+      "reason": "hash_diff=19, edge_den=0.029",
+      "scene_type": "ppt",
+      "visual_text": "我们日常生活中的机器",
+      "ocr_text": "我们日常生活中的机器 cheartú Chester Add to Dictionary Undo Cut Copy Paste Delete Select All Check Spelling Languages Inspect Element (Q)",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 426.47,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000426466.jpg",
+      "reason": "hash_diff=18, edge_den=0.026",
+      "scene_type": "mixed",
+      "visual_text": "我们日常生活中的机器",
+      "ocr_text": "我们日常生活中的机器 老马让小马把半口家麦子驮到磨坊去，途中遇到一条小河。小马询问老牛能不能过河，老牛说：“水很浅，刚没小腿，能过去。” 就在小马准备过河的时候，从树上跳下的松鼠却阻拦说：河水“深得很哩！昨天，我的一个伙伴就是掉在这条河里淹死的。” 小马只好回家问妈妈，妈妈告诉小马：“孩子，光听别人说，自己不动脑筋，不去试试，是不行的，河水是深是浅，你去试一试，就知道了。” 小马再次来到河边，小心地到了对岸，他发现原来河水既不像老牛说的那样浅，也不像松鼠说的那样深。 而基本的拼写检查",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    },
+    {
+      "timestamp": 464.57,
+      "frame_path": "D:\\VscodeProject\\my_tutor\\keyframes\\2. 机器是怎么学习的？\\0000464565.jpg",
+      "reason": "hash_diff=24, edge_den=0.044",
+      "scene_type": "ppt",
+      "visual_text": "第三课：什么是算法？",
+      "ocr_text": "第三课：什么是算法？ 我们下节课会讲",
+      "formula_latex": [],
+      "chart_data": [],
+      "confidence": 0.99
+    }
+  ]
+}
